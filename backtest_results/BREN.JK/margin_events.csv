@@ -1,0 +1,4 @@
+date,kind,deficit,mark_price,maintenance_required,account_equity,action,liquidation_price,liquidation_quantity,note
+2026-05-29,hard_risk,0.0,2337.66,14553000.0,117255395.71000001,Max single trade risk exceeded: 10.34%,,,
+2026-06-05,hard_risk,0.0,4154.15,7915949.999999999,60251918.15450001,Max single trade risk exceeded: 5.90%,,,
+2026-06-30,take_profit,0.0,3097.6785714285716,7246050.0,114156987.47150002,Short target triggered: low 3040.0 <= target 3097.6785714285716,,,

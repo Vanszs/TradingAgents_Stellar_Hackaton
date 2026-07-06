@@ -1,0 +1,16 @@
+{
+  "ticker": "BREN.JK",
+  "trade_date": "2026-06-30",
+  "snapshot_created_at": "2026-06-30 16:30:00",
+  "provider_mode": "snapshot",
+  "max_ohlcv_date": "2026-06-30",
+  "max_news_time": null,
+  "max_fundamental_available_date": null,
+  "max_sentiment_time": null,
+  "max_broker_activity_time": null,
+  "path": "snapshots/BREN.JK/2026-06-30",
+  "lookback_days": 240,
+  "window_min_ohlcv_date": "2025-07-04",
+  "window_max_ohlcv_date": "2026-06-30",
+  "window_expected_min_ohlcv_date": "2025-10-26"
+}
