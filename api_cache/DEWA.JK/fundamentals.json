@@ -1,0 +1,5819 @@
+[
+  {
+    "metric": "industry",
+    "value": "Thermal Coal",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "industryKey",
+    "value": "thermal-coal",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "industryDisp",
+    "value": "Thermal Coal",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "sector",
+    "value": "Energy",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "sectorKey",
+    "value": "energy",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "sectorDisp",
+    "value": "Energy",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "longBusinessSummary",
+    "value": "PT Darma Henwa Tbk, together with its subsidiaries, engages in the mining support and other excavation activities, and metal fabrication products in Indonesia. It operates in two segments, Mining Services and Other Services. The company is involved in various mining activities, including land clearing, top soiling, drilling, blasting, overburden removal and dumping, coal getting, run of mine, transportation, hauling, barging, vegetation, and rehabilitation. It also engages in road and bridge construction, mineral dressing plant installation, earthworks, drilling exploration, and civil consultant management activities, as well as rental and operating lease of industrial machinery and equipment. In addition, the company is involved in the civil engineering business; port services; machinery repairing; and human resources outsourcing and management. The company was formerly known as PT HWE Indonesia and changed its name to PT Darma Henwa Tbk in September 2005. The company was incorporated in 1991 and is headquartered in Jakarta Selatan, Indonesia.",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fullTimeEmployees",
+    "value": 4483,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "executiveTeam",
+    "value": [],
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "maxAge",
+    "value": 86400,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "priceHint",
+    "value": 2,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "previousClose",
+    "value": 284.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "open",
+    "value": 280.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "dayLow",
+    "value": 274.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "dayHigh",
+    "value": 300.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketPreviousClose",
+    "value": 284.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketOpen",
+    "value": 280.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketDayLow",
+    "value": 274.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketDayHigh",
+    "value": 300.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "payoutRatio",
+    "value": 0.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "beta",
+    "value": 0.146,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "trailingPE",
+    "value": 2.6083074,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "volume",
+    "value": 719949600,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketVolume",
+    "value": 719949600,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "averageVolume",
+    "value": 750868920,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "averageVolume10days",
+    "value": 674981760,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "averageDailyVolume10Day",
+    "value": 674981760,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "bid",
+    "value": 292.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "ask",
+    "value": 294.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "bidSize",
+    "value": 0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "askSize",
+    "value": 0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "marketCap",
+    "value": 11880730984448,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "nonDilutedMarketCap",
+    "value": 11555231325296,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyTwoWeekLow",
+    "value": 171.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyTwoWeekHigh",
+    "value": 865.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "allTimeHigh",
+    "value": 865.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "allTimeLow",
+    "value": 50.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "priceToSalesTrailing12Months",
+    "value": 1.8687245,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyDayAverage",
+    "value": 401.58,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "twoHundredDayAverage",
+    "value": 455.11,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "trailingAnnualDividendRate",
+    "value": 0.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "trailingAnnualDividendYield",
+    "value": 0.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "currency",
+    "value": "IDR",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "tradeable",
+    "value": false,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "enterpriseValue",
+    "value": 15245165723648,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "forwardPE",
+    "value": 194666.67,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "profitMargins",
+    "value": 0.68116,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "floatShares",
+    "value": 9996902594,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "sharesOutstanding",
+    "value": 40687434244,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "heldPercentInsiders",
+    "value": 0.4625,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "heldPercentInstitutions",
+    "value": 0.00715,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "impliedSharesOutstanding",
+    "value": 40687434244,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "bookValue",
+    "value": 193.602,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "priceToBook",
+    "value": 1.5082488,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "lastFiscalYearEnd",
+    "value": 1767139200,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "nextFiscalYearEnd",
+    "value": 1798675200,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "mostRecentQuarter",
+    "value": 1774915200,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "earningsQuarterlyGrowth",
+    "value": 0.346,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "netIncomeToCommon",
+    "value": 4330559373312,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "trailingEps",
+    "value": 111.95,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "enterpriseToRevenue",
+    "value": 2.398,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "enterpriseToEbitda",
+    "value": 10.575,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "52WeekChange",
+    "value": 0.6045197,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "SandP52WeekChange",
+    "value": 0.20045471,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "quoteType",
+    "value": "EQUITY",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "currentPrice",
+    "value": 292.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "targetHighPrice",
+    "value": 1381.38,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "targetLowPrice",
+    "value": 717.6,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "targetMeanPrice",
+    "value": 946.33496,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "targetMedianPrice",
+    "value": 843.18,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "recommendationMean",
+    "value": 1.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "recommendationKey",
+    "value": "strong_buy",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "numberOfAnalystOpinions",
+    "value": 4,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "totalCash",
+    "value": 744563408896,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "totalCashPerShare",
+    "value": 18.3,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "ebitda",
+    "value": 1441590542336,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "totalDebt",
+    "value": 4419230367744,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "quickRatio",
+    "value": 0.852,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "currentRatio",
+    "value": 0.98,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "totalRevenue",
+    "value": 6357668855808,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "debtToEquity",
+    "value": 55.993,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "revenuePerShare",
+    "value": 154.659,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "returnOnAssets",
+    "value": 0.02473,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "returnOnEquity",
+    "value": 0.68301004,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "grossProfits",
+    "value": 900784783360,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "freeCashflow",
+    "value": 1075252822016,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "operatingCashflow",
+    "value": 1014961995776,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "earningsGrowth",
+    "value": -0.017,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "revenueGrowth",
+    "value": -0.022,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "grossMargins",
+    "value": 0.14168,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "ebitdaMargins",
+    "value": 0.22674999,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "operatingMargins",
+    "value": 0.117939994,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "financialCurrency",
+    "value": "IDR",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "symbol",
+    "value": "DEWA.JK",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "language",
+    "value": "en-US",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "region",
+    "value": "US",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "typeDisp",
+    "value": "Equity",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "quoteSourceName",
+    "value": "Delayed Quote",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "triggerable",
+    "value": false,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "customPriceAlertConfidence",
+    "value": "LOW",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "shortName",
+    "value": "Darma Henwa Tbk",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "longName",
+    "value": "PT Darma Henwa Tbk",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "marketState",
+    "value": "POSTPOST",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "hasPrePostMarketData",
+    "value": false,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "firstTradeDateMilliseconds",
+    "value": 1190772000000,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketChange",
+    "value": 8.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketDayRange",
+    "value": "274.0 - 300.0",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fullExchangeName",
+    "value": "Jakarta",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "averageDailyVolume3Month",
+    "value": 750868920,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyTwoWeekLowChange",
+    "value": 121.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyTwoWeekLowChangePercent",
+    "value": 0.7076023,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyTwoWeekRange",
+    "value": "171.0 - 865.0",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyTwoWeekHighChange",
+    "value": -573.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyTwoWeekHighChangePercent",
+    "value": -0.6624277,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyTwoWeekChangePercent",
+    "value": 60.451973,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "epsTrailingTwelveMonths",
+    "value": 111.95,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "epsCurrentYear",
+    "value": 0.001,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "corporateActions",
+    "value": [],
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketTime",
+    "value": 1782897267,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "exchange",
+    "value": "JKT",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "messageBoardId",
+    "value": "finmb_22421879",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "exchangeTimezoneName",
+    "value": "Asia/Jakarta",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "exchangeTimezoneShortName",
+    "value": "WIB",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "gmtOffSetMilliseconds",
+    "value": 25200000,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "market",
+    "value": "id_market",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "esgPopulated",
+    "value": false,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketChangePercent",
+    "value": 2.8169014,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "regularMarketPrice",
+    "value": 292.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "priceEpsCurrentYear",
+    "value": 292000.0,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyDayAverageChange",
+    "value": -109.57999,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "fiftyDayAverageChangePercent",
+    "value": -0.27287212,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "twoHundredDayAverageChange",
+    "value": -163.10999,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "twoHundredDayAverageChangePercent",
+    "value": -0.35839686,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "sourceInterval",
+    "value": 10,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "exchangeDataDelayedBy",
+    "value": 10,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "averageAnalystRating",
+    "value": "1.0 - Strong Buy",
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "cryptoTradeable",
+    "value": false,
+    "available_date": "2026-07-01",
+    "period": "latest",
+    "source": "yfinance_info"
+  },
+  {
+    "metric": "balance_sheet:Ordinary Shares Number",
+    "value": 40687434244.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Share Issued",
+    "value": 40687434244.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Debt",
+    "value": 3021728585000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Debt",
+    "value": 3597592754000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tangible Book Value",
+    "value": 7877159783000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Invested Capital",
+    "value": 11385713444000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Working Capital",
+    "value": -56618603000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Tangible Assets",
+    "value": 7877159783000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Lease Obligations",
+    "value": 89039843000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock Equity",
+    "value": 7877160533000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Capitalization",
+    "value": 10643128603000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Equity Gross Minority Interest",
+    "value": 7892427755000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Minority Interest",
+    "value": 15267222000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Stockholders Equity",
+    "value": 7877160533000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Equity Interest",
+    "value": 6055000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Treasury Stock",
+    "value": 951710314000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Retained Earnings",
+    "value": 4496978720000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Additional Paid In Capital",
+    "value": 1204827671000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Stock",
+    "value": 3127058401000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock",
+    "value": 3127058401000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Liabilities Net Minority Interest",
+    "value": 8060112649000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Liabilities Net Minority Interest",
+    "value": 5191705441000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Pension And Other Postretirement Benefit Plans",
+    "value": 169364635000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tradeand Other Payables Non Current",
+    "value": 824907913000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Liabilities",
+    "value": 1384742631000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt And Capital Lease Obligation",
+    "value": 2812690262000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Capital Lease Obligation",
+    "value": 46722192000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt",
+    "value": 2765968070000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Liabilities",
+    "value": 2868407208000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt And Capital Lease Obligation",
+    "value": 784902492000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Capital Lease Obligation",
+    "value": 42317651000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt",
+    "value": 742584841000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Payables",
+    "value": 1442996501000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Payable",
+    "value": 615584062000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Tax Payable",
+    "value": 35348458000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Payable",
+    "value": 792063981000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Assets",
+    "value": 15952540404000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Assets",
+    "value": 13140751799000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Non Current Assets",
+    "value": 62500000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Prepaid Assets",
+    "value": 7705410000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Assets",
+    "value": 425413000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentin Financial Assets",
+    "value": 1106339607000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Available For Sale Securities",
+    "value": 1106339607000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Equity Investment",
+    "value": 51192201000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentsin Associatesat Cost",
+    "value": 51192201000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill And Other Intangible Assets",
+    "value": 750000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill",
+    "value": 750000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net PPE",
+    "value": 11730078602000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accumulated Depreciation",
+    "value": -5000351013000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross PPE",
+    "value": 9704551434000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Construction In Progress",
+    "value": 0.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Properties",
+    "value": 52974872000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Machinery Furniture Equipment",
+    "value": 9400300910000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Buildings And Improvements",
+    "value": 250715652000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Land And Improvements",
+    "value": 560000000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Properties",
+    "value": 0.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Assets",
+    "value": 2811788605000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Prepaid Assets",
+    "value": 325354388000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Inventory",
+    "value": 300004371000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Inventories",
+    "value": 14525718000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Raw Materials",
+    "value": 285478653000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Receivables",
+    "value": 3312412000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Receivable",
+    "value": 1696293108000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Allowance For Doubtful Accounts Receivable",
+    "value": 0.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross Accounts Receivable",
+    "value": 1696293108000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Cash Equivalents And Short Term Investments",
+    "value": 486824326000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash And Cash Equivalents",
+    "value": 486824326000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Financial",
+    "value": 486824326000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Ordinary Shares Number",
+    "value": 40687434244.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Share Issued",
+    "value": 40687434244.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Debt",
+    "value": 1880470189000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Debt",
+    "value": 3559378068000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tangible Book Value",
+    "value": 8575864905000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Invested Capital",
+    "value": 12046966243000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Working Capital",
+    "value": 481175714000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Tangible Assets",
+    "value": 8575864905000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Lease Obligations",
+    "value": 88277480000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock Equity",
+    "value": 8575865655000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Capitalization",
+    "value": 11211473985000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Equity Gross Minority Interest",
+    "value": 8591133274000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Minority Interest",
+    "value": 15267619000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Stockholders Equity",
+    "value": 8575865655000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Equity Interest",
+    "value": 6055000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Treasury Stock",
+    "value": 160288054000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Retained Earnings",
+    "value": 4404261582000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Additional Paid In Capital",
+    "value": 1204827671000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Stock",
+    "value": 3127058401000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock",
+    "value": 3127058401000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Liabilities Net Minority Interest",
+    "value": 8143839115000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Liabilities Net Minority Interest",
+    "value": 5005162457000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Pension And Other Postretirement Benefit Plans",
+    "value": 169364635000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tradeand Other Payables Non Current",
+    "value": 775617007000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Liabilities",
+    "value": 1382669377000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt And Capital Lease Obligation",
+    "value": 2677511438000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Capital Lease Obligation",
+    "value": 41903108000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt",
+    "value": 2635608330000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Liabilities",
+    "value": 3138676658000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt And Capital Lease Obligation",
+    "value": 881866630000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Capital Lease Obligation",
+    "value": 46374372000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt",
+    "value": 835492258000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Payables",
+    "value": 1662752173000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Payable",
+    "value": 766291412000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Tax Payable",
+    "value": 6686498000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Payable",
+    "value": 889774263000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Assets",
+    "value": 16734972389000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Assets",
+    "value": 13115120017000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Non Current Assets",
+    "value": 62500000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Prepaid Assets",
+    "value": 24883809000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Assets",
+    "value": 425413000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentin Financial Assets",
+    "value": 1106339607000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Available For Sale Securities",
+    "value": 1106339607000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Equity Investment",
+    "value": 51192201000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentsin Associatesat Cost",
+    "value": 51192201000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill And Other Intangible Assets",
+    "value": 750000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill",
+    "value": 750000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net PPE",
+    "value": 11689259364000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accumulated Depreciation",
+    "value": -4761280404000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross PPE",
+    "value": 9441918288000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Construction In Progress",
+    "value": 3095218000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Properties",
+    "value": 63681683000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Machinery Furniture Equipment",
+    "value": 9138612968000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Buildings And Improvements",
+    "value": 235968419000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Land And Improvements",
+    "value": 560000000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Properties",
+    "value": 0.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Assets",
+    "value": 3619852372000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Prepaid Assets",
+    "value": 184887456000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Inventory",
+    "value": 302447875000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Inventories",
+    "value": 17137113000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Raw Materials",
+    "value": 285310762000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Receivables",
+    "value": 4689475000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Receivable",
+    "value": 1537197167000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Allowance For Doubtful Accounts Receivable",
+    "value": 0.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross Accounts Receivable",
+    "value": 1537197167000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Cash Equivalents And Short Term Investments",
+    "value": 1590630399000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash And Cash Equivalents",
+    "value": 1590630399000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Equivalents",
+    "value": 0.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Financial",
+    "value": 1590630399000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Ordinary Shares Number",
+    "value": 40687434244.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Share Issued",
+    "value": 40687434244.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Debt",
+    "value": 1668885489000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Debt",
+    "value": 2928098747000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tangible Book Value",
+    "value": 4679181678000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Invested Capital",
+    "value": 7523742589000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Working Capital",
+    "value": 561664295000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Tangible Assets",
+    "value": 4679181678000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Lease Obligations",
+    "value": 83538586000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock Equity",
+    "value": 4679182428000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Capitalization",
+    "value": 6911938545000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Equity Gross Minority Interest",
+    "value": 4682150527000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Minority Interest",
+    "value": 2968099000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Stockholders Equity",
+    "value": 4679182428000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Equity Interest",
+    "value": 6055000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Retained Earnings",
+    "value": 347290301000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Additional Paid In Capital",
+    "value": 1204827671000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Stock",
+    "value": 3127058401000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock",
+    "value": 3127058401000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Liabilities Net Minority Interest",
+    "value": 6149547361000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Liabilities Net Minority Interest",
+    "value": 3303900806000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Pension And Other Postretirement Benefit Plans",
+    "value": 154808556000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tradeand Other Payables Non Current",
+    "value": 668715300000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Liabilities",
+    "value": 225655178000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt And Capital Lease Obligation",
+    "value": 2254721772000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Capital Lease Obligation",
+    "value": 21965655000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt",
+    "value": 2232756117000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Liabilities",
+    "value": 2845646555000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt And Capital Lease Obligation",
+    "value": 673376975000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Capital Lease Obligation",
+    "value": 61572931000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt",
+    "value": 611804044000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Payables",
+    "value": 1573952388000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Payable",
+    "value": 675344522000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Tax Payable",
+    "value": 11968783000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Payable",
+    "value": 886639083000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Assets",
+    "value": 10831697888000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Assets",
+    "value": 7424387038000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Non Current Assets",
+    "value": 1612910000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Prepaid Assets",
+    "value": 1037410178000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Assets",
+    "value": 7645794000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentin Financial Assets",
+    "value": 1106339607000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Available For Sale Securities",
+    "value": 1106339607000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Equity Investment",
+    "value": 7169476000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentsin Associatesat Cost",
+    "value": 7169476000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill And Other Intangible Assets",
+    "value": 750000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill",
+    "value": 750000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net PPE",
+    "value": 5108642857000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accumulated Depreciation",
+    "value": -6594419537000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross PPE",
+    "value": 11703062394000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Properties",
+    "value": 101823066000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Machinery Furniture Equipment",
+    "value": 11450933134000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Buildings And Improvements",
+    "value": 148689111000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Land And Improvements",
+    "value": 1617083000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Properties",
+    "value": 0.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Assets",
+    "value": 3407310850000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Prepaid Assets",
+    "value": 293401675000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Inventory",
+    "value": 428074588000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Inventories",
+    "value": 16942434000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Raw Materials",
+    "value": 411132154000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Receivables",
+    "value": 36815526000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Receivable",
+    "value": 1473344389000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Allowance For Doubtful Accounts Receivable",
+    "value": -5736788000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross Accounts Receivable",
+    "value": 1479081177000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Cash Equivalents And Short Term Investments",
+    "value": 1175674672000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash And Cash Equivalents",
+    "value": 1175674672000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Equivalents",
+    "value": 416500000000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Financial",
+    "value": 759174672000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Ordinary Shares Number",
+    "value": 40687434244.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Share Issued",
+    "value": 40687434244.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Debt",
+    "value": 1696127465000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Debt",
+    "value": 2615118574000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tangible Book Value",
+    "value": 4889967278000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Invested Capital",
+    "value": 7217956283000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Working Capital",
+    "value": 68099638000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Tangible Assets",
+    "value": 4889967278000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Lease Obligations",
+    "value": 287130319000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock Equity",
+    "value": 4889968028000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Capitalization",
+    "value": 6456113932000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Equity Gross Minority Interest",
+    "value": 4887622383000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Minority Interest",
+    "value": -2345645000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Stockholders Equity",
+    "value": 4889968028000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Retained Earnings",
+    "value": -904161001000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Additional Paid In Capital",
+    "value": 1204827671000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Stock",
+    "value": 3127058402000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock",
+    "value": 3127058402000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Liabilities Net Minority Interest",
+    "value": 5155864202000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Liabilities Net Minority Interest",
+    "value": 2149333923000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Pension And Other Postretirement Benefit Plans",
+    "value": 148638859000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tradeand Other Payables Non Current",
+    "value": 145119333000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Liabilities",
+    "value": 202131550000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt And Capital Lease Obligation",
+    "value": 1653444181000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Capital Lease Obligation",
+    "value": 87298277000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt",
+    "value": 1566145904000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Liabilities",
+    "value": 3006530279000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt And Capital Lease Obligation",
+    "value": 961674393000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Capital Lease Obligation",
+    "value": 199832042000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt",
+    "value": 761842351000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Payables",
+    "value": 1522119116000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Payable",
+    "value": 534928117000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Tax Payable",
+    "value": 14972278000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Payable",
+    "value": 972218721000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Assets",
+    "value": 10043486585000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Assets",
+    "value": 6968856668000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Prepaid Assets",
+    "value": 844479470000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Assets",
+    "value": 253595478000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Assets",
+    "value": 6745684000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentin Financial Assets",
+    "value": 1106339607000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Available For Sale Securities",
+    "value": 1106339607000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Equity Investment",
+    "value": 7022837000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentsin Associatesat Cost",
+    "value": 7022837000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill And Other Intangible Assets",
+    "value": 750000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill",
+    "value": 750000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net PPE",
+    "value": 4490912373000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accumulated Depreciation",
+    "value": -6428576261000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross PPE",
+    "value": 10919488634000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Properties",
+    "value": 352904360000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Machinery Furniture Equipment",
+    "value": 10417943868000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Buildings And Improvements",
+    "value": 147172323000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Land And Improvements",
+    "value": 1468083000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Properties",
+    "value": 0.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Assets",
+    "value": 3074629917000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Prepaid Assets",
+    "value": 325663454000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Inventory",
+    "value": 455330262000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Inventories",
+    "value": 19069260000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Raw Materials",
+    "value": 436261002000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Receivables",
+    "value": 29524150000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Receivable",
+    "value": 1632251261000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Allowance For Doubtful Accounts Receivable",
+    "value": -5271240000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross Accounts Receivable",
+    "value": 1637522501000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Cash Equivalents And Short Term Investments",
+    "value": 631860790000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash And Cash Equivalents",
+    "value": 631860790000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Equivalents",
+    "value": 91500000000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Financial",
+    "value": 540360790000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Ordinary Shares Number",
+    "value": 40687434244.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Share Issued",
+    "value": 40687434244.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Debt",
+    "value": 1787067645000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Debt",
+    "value": 2382495433000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tangible Book Value",
+    "value": 4790860146000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Invested Capital",
+    "value": 7041837687000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Working Capital",
+    "value": 135169759000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net Tangible Assets",
+    "value": 4790860146000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Lease Obligations",
+    "value": 131518642000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock Equity",
+    "value": 4790860896000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Capitalization",
+    "value": 6331638508000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Equity Gross Minority Interest",
+    "value": 4788502067000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Minority Interest",
+    "value": -2358829000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Stockholders Equity",
+    "value": 4790860896000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Retained Earnings",
+    "value": -1003268133000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Additional Paid In Capital",
+    "value": 1204827671000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Capital Stock",
+    "value": 3127058402000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Common Stock",
+    "value": 3127058402000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Liabilities Net Minority Interest",
+    "value": 4911235687000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Liabilities Net Minority Interest",
+    "value": 2089759372000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Pension And Other Postretirement Benefit Plans",
+    "value": 144272945000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Tradeand Other Payables Non Current",
+    "value": 122677185000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Liabilities",
+    "value": 242499305000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt And Capital Lease Obligation",
+    "value": 1580309937000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Capital Lease Obligation",
+    "value": 39532325000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Debt",
+    "value": 1540777612000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Liabilities",
+    "value": 2821476315000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt And Capital Lease Obligation",
+    "value": 802185496000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Capital Lease Obligation",
+    "value": 91986317000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Debt",
+    "value": 710199179000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Payables",
+    "value": 1358359663000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Payable",
+    "value": 464615951000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Tax Payable",
+    "value": 9430058000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Payable",
+    "value": 884313654000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Assets",
+    "value": 9699737754000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Total Non Current Assets",
+    "value": 6743091680000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Prepaid Assets",
+    "value": 844479470000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Assets",
+    "value": 262747567000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Taxes Assets",
+    "value": 6562497000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentin Financial Assets",
+    "value": 1106339607000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Available For Sale Securities",
+    "value": 1106339607000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Long Term Equity Investment",
+    "value": 6997616000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Investmentsin Associatesat Cost",
+    "value": 6997616000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill And Other Intangible Assets",
+    "value": 750000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Goodwill",
+    "value": 750000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Net PPE",
+    "value": 4213766083000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accumulated Depreciation",
+    "value": -6207664276000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross PPE",
+    "value": 10421430359000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Properties",
+    "value": 212512569000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Machinery Furniture Equipment",
+    "value": 10076976648000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Buildings And Improvements",
+    "value": 130793059000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Land And Improvements",
+    "value": 1148083000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Properties",
+    "value": 0.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Current Assets",
+    "value": 2956646074000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Prepaid Assets",
+    "value": 238881790000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Inventory",
+    "value": 463358552000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Inventories",
+    "value": 19813473000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Raw Materials",
+    "value": 443545079000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Receivables",
+    "value": 153202851000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Accounts Receivable",
+    "value": 1637293735000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Allowance For Doubtful Accounts Receivable",
+    "value": -5271240000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Gross Accounts Receivable",
+    "value": 1642564975000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Cash Equivalents And Short Term Investments",
+    "value": 463909146000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash And Cash Equivalents",
+    "value": 463909146000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Equivalents",
+    "value": 106500000000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Financial",
+    "value": 357409146000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Equity Interest",
+    "value": 6055000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Treasury Stock",
+    "value": 0.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Other Non Current Assets",
+    "value": 293875000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Non Current Deferred Assets",
+    "value": 272386974000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Construction In Progress",
+    "value": 0.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "balance_sheet:Cash Equivalents",
+    "value": 95000000000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_balance_sheet"
+  },
+  {
+    "metric": "income_statement:Tax Effect Of Unusual Items",
+    "value": 0.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Rate For Calcs",
+    "value": 0.205335,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized EBITDA",
+    "value": 179933371000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing Operation Net Minority Interest",
+    "value": 92717138000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Depreciation",
+    "value": 10021895000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Cost Of Revenue",
+    "value": 1280540289000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBITDA",
+    "value": 179933371000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBIT",
+    "value": 169911476000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Interest Income",
+    "value": -67676209000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense",
+    "value": 53237531000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income",
+    "value": 2497218000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized Income",
+    "value": 92717138000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing And Discontinued Operation",
+    "value": 92717138000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Expenses",
+    "value": 1356580937000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Rent Expense Supplemental",
+    "value": 78446596000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Diluted Average Shares",
+    "value": 39381009282.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Basic Average Shares",
+    "value": 39381009282.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Diluted EPS",
+    "value": 2.35,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Basic EPS",
+    "value": 2.35,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Diluted NI Availto Com Stockholders",
+    "value": 92717138000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Common Stockholders",
+    "value": 92717138000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Otherunder Preferred Stock Dividend",
+    "value": 0.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income",
+    "value": 92717138000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Minority Interests",
+    "value": 397000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Including Noncontrolling Interests",
+    "value": 92716741000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Continuous Operations",
+    "value": 92716741000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Provision",
+    "value": 23957204000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Pretax Income",
+    "value": 116673945000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Other Non Operating Income Expenses",
+    "value": -10000428000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Non Operating Interest Income Expense",
+    "value": -67676209000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Other Finance Cost",
+    "value": 16935896000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense Non Operating",
+    "value": 53237531000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income Non Operating",
+    "value": 2497218000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Income",
+    "value": 192720690000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Expense",
+    "value": 76040648000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Other Operating Expenses",
+    "value": 105457000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation And Amortization In Income Statement",
+    "value": 10021895000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation Income Statement",
+    "value": 10021895000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Selling General And Administration",
+    "value": 22217587000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:General And Administrative Expense",
+    "value": 22217587000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Gross Profit",
+    "value": 268761338000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Cost Of Revenue",
+    "value": 1280540289000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Revenue",
+    "value": 1549301627000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Revenue",
+    "value": 1549301627000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Effect Of Unusual Items",
+    "value": 0.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Rate For Calcs",
+    "value": 0.22,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized EBITDA",
+    "value": 3967472531000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing Operation Net Minority Interest",
+    "value": 4067590664000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Depreciation",
+    "value": 6859757000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Cost Of Revenue",
+    "value": 1453366686000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBITDA",
+    "value": 3967472531000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBIT",
+    "value": 3960612774000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Interest Income",
+    "value": -70365230000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense",
+    "value": 79891581000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income",
+    "value": 10347479000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized Income",
+    "value": 4067590664000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing And Discontinued Operation",
+    "value": 4067590664000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Expenses",
+    "value": 1528470554000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Rent Expense Supplemental",
+    "value": 83969648000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Diluted NI Availto Com Stockholders",
+    "value": 4067590664000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Common Stockholders",
+    "value": 4067590664000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Otherunder Preferred Stock Dividend",
+    "value": 0.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income",
+    "value": 4067590664000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Minority Interests",
+    "value": -1837000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Including Noncontrolling Interests",
+    "value": 4067592501000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Continuous Operations",
+    "value": 4067592501000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Provision",
+    "value": -186871308000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Pretax Income",
+    "value": 3880721193000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Non Operating Interest Income Expense",
+    "value": -70365230000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Other Finance Cost",
+    "value": 821128000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense Non Operating",
+    "value": 79891581000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income Non Operating",
+    "value": 10347479000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Income",
+    "value": 213918935000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Expense",
+    "value": 75103868000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Other Operating Expenses",
+    "value": 21031796000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation And Amortization In Income Statement",
+    "value": 6859757000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation Income Statement",
+    "value": 6859757000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Selling General And Administration",
+    "value": 5591952000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:General And Administrative Expense",
+    "value": 5591952000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Gross Profit",
+    "value": 289022803000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Cost Of Revenue",
+    "value": 1453366686000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Revenue",
+    "value": 1742389489000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Revenue",
+    "value": 1742389489000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Effect Of Unusual Items",
+    "value": 0.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Rate For Calcs",
+    "value": 0.329086,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized EBITDA",
+    "value": 153181317000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing Operation Net Minority Interest",
+    "value": 71144507000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Depreciation",
+    "value": 3561013000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Cost Of Revenue",
+    "value": 1344818155000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBITDA",
+    "value": 153181317000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBIT",
+    "value": 149620304000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Interest Income",
+    "value": -53009379000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense",
+    "value": 43554611000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income",
+    "value": 3357023000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized Income",
+    "value": 71144507000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing And Discontinued Operation",
+    "value": 71144507000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Expenses",
+    "value": 1381223168000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Rent Expense Supplemental",
+    "value": 116836934000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Diluted NI Availto Com Stockholders",
+    "value": 71144507000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Common Stockholders",
+    "value": 71144507000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Otherunder Preferred Stock Dividend",
+    "value": 0.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income",
+    "value": 71144507000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Minority Interests",
+    "value": -16454000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Including Noncontrolling Interests",
+    "value": 71160961000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Continuous Operations",
+    "value": 71160961000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Provision",
+    "value": 34904732000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Pretax Income",
+    "value": 106065693000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Non Operating Interest Income Expense",
+    "value": -53009379000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Other Finance Cost",
+    "value": 12811791000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense Non Operating",
+    "value": 43554611000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income Non Operating",
+    "value": 3357023000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Income",
+    "value": 160317159000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Expense",
+    "value": 36405013000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Other Operating Expenses",
+    "value": -17210786000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation And Amortization In Income Statement",
+    "value": 3561013000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation Income Statement",
+    "value": 3561013000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Selling General And Administration",
+    "value": 19652818000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:General And Administrative Expense",
+    "value": 19652818000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Gross Profit",
+    "value": 196722172000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Cost Of Revenue",
+    "value": 1344818155000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Revenue",
+    "value": 1541540327000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Revenue",
+    "value": 1541540327000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Effect Of Unusual Items",
+    "value": 0.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Rate For Calcs",
+    "value": 0.22,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized EBITDA",
+    "value": 169381597000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing Operation Net Minority Interest",
+    "value": 99107132000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Depreciation",
+    "value": 6084504000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Cost Of Revenue",
+    "value": 1294713670000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBITDA",
+    "value": 169381597000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBIT",
+    "value": 163297093000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Interest Income",
+    "value": -63743020000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense",
+    "value": 65683635000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income",
+    "value": 877332000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized Income",
+    "value": 99107132000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing And Discontinued Operation",
+    "value": 99107132000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Expenses",
+    "value": 1358665820000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Rent Expense Supplemental",
+    "value": 33885493000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Operating Income As Reported",
+    "value": 162208589000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Diluted NI Availto Com Stockholders",
+    "value": 99107132000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Common Stockholders",
+    "value": 99107132000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Otherunder Preferred Stock Dividend",
+    "value": 0.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income",
+    "value": 99107132000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Minority Interests",
+    "value": -13184000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Including Noncontrolling Interests",
+    "value": 99120316000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Continuous Operations",
+    "value": 99120316000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Provision",
+    "value": -1506858000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Pretax Income",
+    "value": 97613458000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Other Non Operating Income Expenses",
+    "value": 984848000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Non Operating Interest Income Expense",
+    "value": -63743020000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Other Finance Cost",
+    "value": -1063283000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense Non Operating",
+    "value": 65683635000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income Non Operating",
+    "value": 877332000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Income",
+    "value": 165771577000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Expense",
+    "value": 63952150000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Other Operating Expenses",
+    "value": -2777460000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation And Amortization In Income Statement",
+    "value": 6084504000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation Income Statement",
+    "value": 6084504000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Selling General And Administration",
+    "value": 14415754000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:General And Administrative Expense",
+    "value": 14415754000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Gross Profit",
+    "value": 229723727000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Cost Of Revenue",
+    "value": 1294713670000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Revenue",
+    "value": 1524437397000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Revenue",
+    "value": 1524437397000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Effect Of Unusual Items",
+    "value": 0.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Rate For Calcs",
+    "value": 0.22,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized EBITDA",
+    "value": 184224794000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing Operation Net Minority Interest",
+    "value": 68892494000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Depreciation",
+    "value": 2603886000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Reconciled Cost Of Revenue",
+    "value": 1337682332000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBITDA",
+    "value": 184224794000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:EBIT",
+    "value": 181620908000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Interest Income",
+    "value": -55686892000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense",
+    "value": 52276508000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income",
+    "value": 1305622000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Normalized Income",
+    "value": 68892494000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income From Continuing And Discontinued Operation",
+    "value": 68892494000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Expenses",
+    "value": 1402125305000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Rent Expense Supplemental",
+    "value": 4665117000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Operating Income As Reported",
+    "value": 186436236000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Diluted Average Shares",
+    "value": 28759423958.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Basic Average Shares",
+    "value": 28759423958.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Diluted EPS",
+    "value": 2.4,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Basic EPS",
+    "value": 2.4,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Diluted NI Availto Com Stockholders",
+    "value": 68892494000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Common Stockholders",
+    "value": 68892494000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Otherunder Preferred Stock Dividend",
+    "value": 0.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income",
+    "value": 68892494000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Minority Interests",
+    "value": 5010000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Including Noncontrolling Interests",
+    "value": 68887484000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Income Continuous Operations",
+    "value": 68887484000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Tax Provision",
+    "value": 60456916000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Pretax Income",
+    "value": 129344400000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Other Non Operating Income Expenses",
+    "value": 558378000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Net Non Operating Interest Income Expense",
+    "value": -55686892000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Other Finance Cost",
+    "value": 4716006000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Expense Non Operating",
+    "value": 52276508000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Interest Income Non Operating",
+    "value": 1305622000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Income",
+    "value": 182263297000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Expense",
+    "value": 64442973000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Other Operating Expenses",
+    "value": 3079144000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation And Amortization In Income Statement",
+    "value": 2603886000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Depreciation Income Statement",
+    "value": 2603886000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Selling General And Administration",
+    "value": 15139425000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:General And Administrative Expense",
+    "value": 15139425000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Gross Profit",
+    "value": 246706270000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Cost Of Revenue",
+    "value": 1337682332000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Revenue",
+    "value": 1584388602000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Operating Revenue",
+    "value": 1584388602000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "income_statement:Total Operating Income As Reported",
+    "value": 29420381000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_income_stmt"
+  },
+  {
+    "metric": "cashflow:Free Cash Flow",
+    "value": -114722943000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Repurchase Of Capital Stock",
+    "value": -791422260000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Repayment Of Debt",
+    "value": -167272551000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Issuance Of Debt",
+    "value": 191293332000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Capital Expenditure",
+    "value": -278066546000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:End Cash Position",
+    "value": 486824326000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Beginning Cash Position",
+    "value": 1590630399000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Changes In Cash",
+    "value": -1103806073000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Financing Cash Flow",
+    "value": -991196797000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Financing Charges",
+    "value": -212398584000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Common Stock Issuance",
+    "value": -791422260000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Common Stock Payments",
+    "value": -791422260000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Issuance Payments Of Debt",
+    "value": 24020781000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Short Term Debt Issuance",
+    "value": 24020781000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Short Term Debt Payments",
+    "value": -167272551000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Short Term Debt Issuance",
+    "value": 191293332000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Investing Cash Flow",
+    "value": -275952879000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Investing Changes",
+    "value": 2113667000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net PPE Purchase And Sale",
+    "value": -278066546000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Purchase Of PPE",
+    "value": -278066546000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Cash Flowsfromusedin Operating Activities Direct",
+    "value": 163343603000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Taxes Refund Paid Direct",
+    "value": -23874893000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Received Direct",
+    "value": 2497218000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Paid Direct",
+    "value": -145956609000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Payments",
+    "value": -1059415368000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentson Behalfof Employees",
+    "value": -243616013000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentsto Suppliersfor Goodsand Services",
+    "value": -815799355000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Receiptsfrom Operating Activities",
+    "value": 1390093255000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Receiptsfrom Customers",
+    "value": 1390093255000.0,
+    "available_date": "2026-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Free Cash Flow",
+    "value": -93496215000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Repayment Of Debt",
+    "value": -233478432000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Issuance Of Debt",
+    "value": 1160235004000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Capital Expenditure",
+    "value": -250713499000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:End Cash Position",
+    "value": 1590630399000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Beginning Cash Position",
+    "value": 1175674672000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Changes In Cash",
+    "value": 415158434000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Financing Cash Flow",
+    "value": 456261612000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Financing Charges",
+    "value": -301669828000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Issuance Payments Of Debt",
+    "value": 926756572000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Long Term Debt Issuance",
+    "value": 926756572000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Long Term Debt Payments",
+    "value": -233478432000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Long Term Debt Issuance",
+    "value": 1160235004000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Investing Cash Flow",
+    "value": -198320462000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net PPE Purchase And Sale",
+    "value": -249869091000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Sale Of PPE",
+    "value": 844408000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Purchase Of PPE",
+    "value": -250713499000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Cash Flowsfromusedin Operating Activities Direct",
+    "value": 157217284000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Taxes Refund Paid Direct",
+    "value": -47276481000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Received Direct",
+    "value": 3704495000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Paid Direct",
+    "value": -67335629000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Payments",
+    "value": -1270891332000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentson Behalfof Employees",
+    "value": -282141023000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentsto Suppliersfor Goodsand Services",
+    "value": -988750309000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Receiptsfrom Operating Activities",
+    "value": 1539016231000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Receiptsfrom Customers",
+    "value": 1539016231000.0,
+    "available_date": "2025-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Free Cash Flow",
+    "value": 114061963000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Repayment Of Debt",
+    "value": -128803990000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Issuance Of Debt",
+    "value": 640361928000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Capital Expenditure",
+    "value": -139081833000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:End Cash Position",
+    "value": 1175674672000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Beginning Cash Position",
+    "value": 631860790000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Effect Of Exchange Rate Changes",
+    "value": 4103153000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Changes In Cash",
+    "value": 539710729000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Financing Cash Flow",
+    "value": 605112040000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Financing Charges",
+    "value": 131266505000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Issuance Payments Of Debt",
+    "value": 511557938000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Long Term Debt Issuance",
+    "value": 511557938000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Long Term Debt Payments",
+    "value": -128803990000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Long Term Debt Issuance",
+    "value": 640361928000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Investing Cash Flow",
+    "value": -318545107000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Investing Changes",
+    "value": -178970048000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net PPE Purchase And Sale",
+    "value": -139575059000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Sale Of PPE",
+    "value": -493226000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Purchase Of PPE",
+    "value": -139081833000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Cash Flowsfromusedin Operating Activities Direct",
+    "value": 253143796000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Taxes Refund Paid Direct",
+    "value": 122453338000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Received Direct",
+    "value": 3357023000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Paid Direct",
+    "value": -55034859000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Payments",
+    "value": -1520159166000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentson Behalfof Employees",
+    "value": -267739800000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentsto Suppliersfor Goodsand Services",
+    "value": -1252419366000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Receiptsfrom Operating Activities",
+    "value": 1702527460000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Receiptsfrom Customers",
+    "value": 1702527460000.0,
+    "available_date": "2025-09-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Free Cash Flow",
+    "value": 109475173000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Repayment Of Debt",
+    "value": -116952868000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Issuance Of Debt",
+    "value": 190337086000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Capital Expenditure",
+    "value": -334091097000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:End Cash Position",
+    "value": 631860790000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Beginning Cash Position",
+    "value": 463909146000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Effect Of Exchange Rate Changes",
+    "value": -6209385000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Changes In Cash",
+    "value": 174161029000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Financing Cash Flow",
+    "value": 46286580000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Financing Charges",
+    "value": -20513741000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Issuance Payments Of Debt",
+    "value": 73384218000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Investing Cash Flow",
+    "value": -315691821000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Investing Changes",
+    "value": 17615059000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net PPE Purchase And Sale",
+    "value": -333306880000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Purchase Of PPE",
+    "value": -334091097000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Cash Flowsfromusedin Operating Activities Direct",
+    "value": 443566270000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Taxes Refund Paid Direct",
+    "value": -19634123000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Received Direct",
+    "value": 877332000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Paid Direct",
+    "value": -44988072000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Payments",
+    "value": -1022471325000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentson Behalfof Employees",
+    "value": -252011678000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentsto Suppliersfor Goodsand Services",
+    "value": -770459647000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Receiptsfrom Operating Activities",
+    "value": 1529782458000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Receiptsfrom Customers",
+    "value": 1529782458000.0,
+    "available_date": "2025-06-30",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Free Cash Flow",
+    "value": -260528179000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Repurchase Of Capital Stock",
+    "value": 0.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Repayment Of Debt",
+    "value": -28182081000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Issuance Of Debt",
+    "value": 646519867000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Capital Expenditure",
+    "value": -865021446000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:End Cash Position",
+    "value": 463909146000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Beginning Cash Position",
+    "value": 346530081000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Effect Of Exchange Rate Changes",
+    "value": 2308939000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Changes In Cash",
+    "value": 117379065000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Financing Cash Flow",
+    "value": 366552255000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Financing Charges",
+    "value": -221056069000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Common Stock Issuance",
+    "value": 0.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Common Stock Payments",
+    "value": 0.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Issuance Payments Of Debt",
+    "value": 618337786000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Short Term Debt Issuance",
+    "value": 618337786000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Short Term Debt Payments",
+    "value": -28182081000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Short Term Debt Issuance",
+    "value": 646519867000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Investing Cash Flow",
+    "value": -853666457000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Investing Changes",
+    "value": 11354989000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net PPE Purchase And Sale",
+    "value": -865021446000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Purchase Of PPE",
+    "value": -865021446000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Cash Flowsfromusedin Operating Activities Direct",
+    "value": 604493267000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Taxes Refund Paid Direct",
+    "value": -30224254000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Received Direct",
+    "value": 1305622000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Interest Paid Direct",
+    "value": -38822760000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Payments",
+    "value": -890368315000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentson Behalfof Employees",
+    "value": -245639872000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Paymentsto Suppliersfor Goodsand Services",
+    "value": -644728443000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Classesof Cash Receiptsfrom Operating Activities",
+    "value": 1562602974000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Receiptsfrom Customers",
+    "value": 1562602974000.0,
+    "available_date": "2025-03-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Effect Of Exchange Rate Changes",
+    "value": 25964750000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Long Term Debt Issuance",
+    "value": 1580231800000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Long Term Debt Payments",
+    "value": -91903073000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Long Term Debt Issuance",
+    "value": 1672134873000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Net Other Investing Changes",
+    "value": 332688000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  },
+  {
+    "metric": "cashflow:Sale Of PPE",
+    "value": 87001000.0,
+    "available_date": "2024-12-31",
+    "period": "quarterly",
+    "source": "yfinance_quarterly_cashflow"
+  }
+]
