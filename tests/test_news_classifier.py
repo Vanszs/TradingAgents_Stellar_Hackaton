@@ -156,3 +156,67 @@ class TestSchemas:
         ])
         assert len(config.coins) == 1
         assert config.coins[0].ticker == "BTC"
+
+
+from tradingagents.news_classifier.config import (
+    load_providers_config,
+    get_provider_config,
+    get_model_name,
+    get_api_key,
+    get_base_url,
+    get_labeling_config,
+)
+
+
+class TestProviderConfig:
+    def test_load_providers_config(self):
+        config = load_providers_config()
+        assert "providers" in config
+        assert "default_provider" in config
+        assert "default_model" in config
+
+    def test_providers_exist(self):
+        config = load_providers_config()
+        providers = config["providers"]
+        assert "sumopod" in providers
+        assert "nara" in providers
+        assert "openai" in providers
+        assert "deepseek" in providers
+
+    def test_provider_has_required_fields(self):
+        config = load_providers_config()
+        for name, provider in config["providers"].items():
+            assert "base_url" in provider, f"{name} missing base_url"
+            assert "api_key_env" in provider, f"{name} missing api_key_env"
+            assert "default_model" in provider, f"{name} missing default_model"
+            assert "models" in provider, f"{name} missing models"
+
+    def test_get_provider_config_by_name(self):
+        config = load_providers_config()
+        pc = get_provider_config("openai", config)
+        assert pc["name"] == "openai"
+        assert pc["base_url"] == "https://api.openai.com/v1"
+
+    def test_get_provider_config_default(self):
+        config = load_providers_config()
+        pc = get_provider_config(config=config)
+        assert pc["name"] == config["default_provider"]
+
+    def test_get_model_name(self):
+        config = load_providers_config()
+        pc = get_provider_config("openai", config)
+        model = get_model_name(pc)
+        assert model == "gpt-4o-mini"
+
+    def test_get_base_url(self):
+        config = load_providers_config()
+        pc = get_provider_config("sumopod", config)
+        url = get_base_url(pc)
+        assert url == "https://ai.sumopod.com/v1"
+
+    def test_get_labeling_config(self):
+        config = load_providers_config()
+        lc = get_labeling_config(config)
+        assert "temperature" in lc
+        assert "max_tokens" in lc
+        assert "batch_size" in lc

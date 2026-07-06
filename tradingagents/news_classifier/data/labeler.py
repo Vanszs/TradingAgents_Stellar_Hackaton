@@ -5,9 +5,50 @@ import logging
 from pathlib import Path
 from typing import Optional
 
-from tradingagents.news_classifier.config import LABEL_MAP, LABELER_PROMPT, DATA_DIR
+from tradingagents.news_classifier.config import (
+    LABEL_MAP,
+    LABELER_PROMPT,
+    DATA_DIR,
+    load_providers_config,
+    get_provider_config,
+    get_model_name,
+    get_api_key,
+    get_base_url,
+    get_labeling_config,
+)
 
 logger = logging.getLogger(__name__)
+
+
+def create_llm_client(
+    provider_name: str = None,
+    config: dict = None,
+):
+    config = config or load_providers_config()
+    provider_config = get_provider_config(provider_name, config)
+    api_key = get_api_key(provider_config)
+    base_url = get_base_url(provider_config)
+    provider_label = provider_config.get("name", provider_name or "unknown")
+
+    if not api_key:
+        logger.error(
+            "No API key found for provider '%s'. Set env var '%s'.",
+            provider_label,
+            provider_config.get("api_key_env", "API_KEY"),
+        )
+        return None
+
+    try:
+        from openai import OpenAI
+        client = OpenAI(api_key=api_key, base_url=base_url if base_url else None)
+        logger.info("Initialized LLM client: provider=%s, base_url=%s", provider_label, base_url)
+        return client
+    except ImportError:
+        logger.error("openai package not installed. Run: pip install openai")
+        return None
+    except Exception as e:
+        logger.error("Failed to create LLM client for '%s': %s", provider_label, e)
+        return None
 
 
 def _build_label_prompt(title: str, content: str, source: str) -> str:
@@ -29,17 +70,32 @@ def _parse_label(response: str) -> Optional[str]:
 def label_with_llm(
     articles: list[dict],
     llm_client=None,
-    batch_size: int = 10,
+    provider_name: str = None,
+    model_name: str = None,
+    batch_size: int = None,
 ) -> list[dict]:
-    labeled = []
+    config = load_providers_config()
+    labeling_config = get_labeling_config(config)
+
+    batch_size = batch_size or labeling_config.get("batch_size", 10)
+    temperature = labeling_config.get("temperature", 0.0)
+    max_tokens = labeling_config.get("max_tokens", 10)
 
     if llm_client is None:
-        try:
-            from openai import OpenAI
-            llm_client = OpenAI()
-        except Exception:
-            logger.error("No LLM client available. Provide llm_client or set OPENAI_API_KEY.")
+        llm_client = create_llm_client(provider_name, config)
+        if llm_client is None:
+            logger.error("Cannot create LLM client. Returning unlabeled articles.")
             return articles
+
+    if model_name is None:
+        provider_config = get_provider_config(provider_name, config)
+        model_name = get_model_name(provider_config)
+
+    logger.info("Labeling %d articles with model=%s", len(articles), model_name)
+
+    labeled = []
+    success_count = 0
+    error_count = 0
 
     for i, article in enumerate(articles):
         if "label" in article:
@@ -54,35 +110,45 @@ def label_with_llm(
 
         try:
             response = llm_client.chat.completions.create(
-                model="gpt-4o-mini",
+                model=model_name,
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=10,
-                temperature=0.0,
+                max_tokens=max_tokens,
+                temperature=temperature,
             )
             label_text = response.choices[0].message.content
             label = _parse_label(label_text)
 
             if label:
                 article["label"] = label
-                article["label_source"] = "llm"
+                article["label_source"] = f"llm:{model_name}"
                 article["label_confidence"] = "auto"
+                success_count += 1
             else:
-                logger.warning("Could not parse label from LLM response: %s", label_text)
+                logger.warning("Could not parse label from response: %s", label_text)
                 article["label"] = "BIASA"
                 article["label_source"] = "llm_fallback"
                 article["label_confidence"] = "low"
+                error_count += 1
 
         except Exception as e:
             logger.error("LLM labeling failed for article %d: %s", i, e)
             article["label"] = "BIASA"
             article["label_source"] = "error_fallback"
             article["label_confidence"] = "none"
+            error_count += 1
 
         labeled.append(article)
 
         if (i + 1) % batch_size == 0:
-            logger.info("Labeled %d/%d articles", i + 1, len(articles))
+            logger.info(
+                "Progress: %d/%d (success=%d, errors=%d)",
+                i + 1, len(articles), success_count, error_count,
+            )
 
+    logger.info(
+        "Labeling complete: %d articles (success=%d, errors=%d)",
+        len(labeled), success_count, error_count,
+    )
     return labeled
 
 

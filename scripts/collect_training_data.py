@@ -6,6 +6,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from tradingagents.news_classifier.config import (
+    load_providers_config,
+    get_provider_config,
+    get_model_name,
+)
 from tradingagents.news_classifier.data.collector import collect_from_feeds, save_articles
 from tradingagents.news_classifier.data.labeler import (
     label_with_llm,
@@ -21,7 +26,14 @@ logger = logging.getLogger(__name__)
 
 
 def main():
+    config = load_providers_config()
+    provider_config = get_provider_config(config=config)
+    model_name = get_model_name(provider_config)
+    provider_label = provider_config.get("name", "unknown")
+
     logger.info("=== Crypto News Training Data Collection ===")
+    logger.info("Provider: %s", provider_label)
+    logger.info("Model: %s", model_name)
 
     logger.info("Step 1: Collecting articles from RSS feeds...")
     articles = collect_from_feeds()
