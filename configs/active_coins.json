@@ -1,0 +1,44 @@
+{
+  "coins": [
+    {
+      "ticker": "BTC",
+      "name": "Bitcoin",
+      "narratives": ["ETF", "halving", "institutional adoption", "store of value", "digital gold"]
+    },
+    {
+      "ticker": "ETH",
+      "name": "Ethereum",
+      "narratives": ["DeFi", "NFT", "layer 2", "proof of stake", "EIP", "merge"]
+    },
+    {
+      "ticker": "SOL",
+      "name": "Solana",
+      "narratives": ["DeFi", "NFT", "fast transactions", "Firedancer", "memecoin"]
+    },
+    {
+      "ticker": "BNB",
+      "name": "Binance Coin",
+      "narratives": ["exchange", "Binance", "regulatory", "trading volume"]
+    },
+    {
+      "ticker": "XRP",
+      "name": "Ripple",
+      "narratives": ["SEC", "lawsuit", "regulatory", "cross-border payments"]
+    },
+    {
+      "ticker": "ADA",
+      "name": "Cardano",
+      "narratives": ["smart contracts", "Africa", "academic", "proof of stake"]
+    },
+    {
+      "ticker": "DOGE",
+      "name": "Dogecoin",
+      "narratives": ["memecoin", "Elon Musk", "Twitter", "payments"]
+    },
+    {
+      "ticker": "AVAX",
+      "name": "Avalanche",
+      "narratives": ["subnet", "DeFi", "institutional", "fast finality"]
+    }
+  ]
+}
