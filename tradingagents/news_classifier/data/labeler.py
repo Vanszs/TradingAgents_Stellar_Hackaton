@@ -67,6 +67,14 @@ def _parse_label(response: str) -> Optional[str]:
     return None
 
 
+def _save_checkpoint(articles: list[dict]) -> None:
+    checkpoint_path = DATA_DIR / "labeled_checkpoint.jsonl"
+    checkpoint_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(checkpoint_path, "w", encoding="utf-8") as f:
+        for article in articles:
+            f.write(json.dumps(article, ensure_ascii=False) + "\n")
+
+
 def label_with_llm(
     articles: list[dict],
     llm_client=None,
@@ -80,6 +88,7 @@ def label_with_llm(
     batch_size = batch_size or labeling_config.get("batch_size", 10)
     temperature = labeling_config.get("temperature", 0.0)
     max_tokens = labeling_config.get("max_tokens", 10)
+    save_interval = 20
 
     if llm_client is None:
         llm_client = create_llm_client(provider_name, config)
@@ -144,6 +153,11 @@ def label_with_llm(
                 "Progress: %d/%d (success=%d, errors=%d)",
                 i + 1, len(articles), success_count, error_count,
             )
+
+        if (i + 1) % save_interval == 0:
+            _save_checkpoint(labeled)
+
+    _save_checkpoint(labeled)
 
     logger.info(
         "Labeling complete: %d articles (success=%d, errors=%d)",
