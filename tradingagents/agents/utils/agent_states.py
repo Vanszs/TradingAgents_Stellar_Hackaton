@@ -1,4 +1,4 @@
-from typing import Annotated
+from typing import Annotated, Optional
 
 from langgraph.graph import MessagesState
 from typing_extensions import TypedDict
@@ -73,3 +73,8 @@ class AgentState(MessagesState):
     ]
     final_trade_decision: Annotated[str, "Final decision made by the Risk Analysts"]
     past_context: Annotated[str, "Memory log context injected at run start (same-ticker decisions + cross-ticker lessons)"]
+    user_narrative: Annotated[Optional[str], "Optional user-provided narrative to evaluate"]
+    narrative_report: Annotated[str, "The final narration report containing the selected narrative"]
+    news_narrative: Annotated[str, "The narrative identified from news media"]
+    social_narrative: Annotated[str, "The narrative identified from social media platforms"]
+    market_narrative: Annotated[str, "The narrative identified from market indicator trends"]
