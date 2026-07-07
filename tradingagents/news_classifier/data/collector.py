@@ -11,7 +11,7 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError
 from xml.etree import ElementTree
 
-from tradingagents.news_classifier.config import RSS_FEEDS, DATA_DIR
+from tradingagents.news_classifier.config import RSS_FEEDS, DATA_DIR, CRYPTO_COMPARE_API_KEY
 
 logger = logging.getLogger(__name__)
 
@@ -90,7 +90,46 @@ def collect_from_feeds(
             seen_ids.add(article["id"])
             all_articles.append(article)
 
-    logger.info("Collected %d unique articles from %d feeds", len(all_articles), len(feeds or RSS_FEEDS))
+    logger.info("Collected %d unique articles from %d RSS feeds", len(all_articles), len(feeds or RSS_FEEDS))
+    return all_articles
+
+
+def collect_from_crypto_compare(
+    api_key: str = None,
+    max_articles: int = 1000,
+) -> list[dict]:
+    api_key = api_key or CRYPTO_COMPARE_API_KEY
+    if not api_key:
+        logger.warning("No CryptoCompare API key, skipping")
+        return []
+
+    from tradingagents.news_classifier.data.crypto_compare import fetch_crypto_compare_news
+    articles = fetch_crypto_compare_news(api_key=api_key, limit=max_articles)
+    return articles
+
+
+def collect_all(
+    rss_feeds: Optional[list[str]] = None,
+    include_crypto_compare: bool = True,
+    max_articles: int = 1000,
+) -> list[dict]:
+    all_articles = []
+    seen_ids = set()
+
+    rss_articles = collect_from_feeds(rss_feeds)
+    for article in rss_articles:
+        if article["id"] not in seen_ids:
+            seen_ids.add(article["id"])
+            all_articles.append(article)
+
+    if include_crypto_compare:
+        cc_articles = collect_from_crypto_compare(max_articles=max_articles)
+        for article in cc_articles:
+            if article["id"] not in seen_ids:
+                seen_ids.add(article["id"])
+                all_articles.append(article)
+
+    logger.info("Total collected: %d unique articles (RSS + CryptoCompare)", len(all_articles))
     return all_articles
 
 
@@ -107,13 +146,23 @@ def save_articles(articles: list[dict], output_path: Optional[Path] = None) -> P
 
 
 def collect_and_save(
+    mode: str = "rss",
     feeds: Optional[list[str]] = None,
     output_path: Optional[Path] = None,
-    interval_seconds: int = 3600,
+    interval_seconds: int = 900,
     max_iterations: int = 1,
+    max_articles: int = 1000,
 ) -> None:
     for i in range(max_iterations):
-        articles = collect_from_feeds(feeds)
+        if mode == "rss":
+            articles = collect_from_feeds(feeds)
+        elif mode == "all":
+            articles = collect_all(feeds, include_crypto_compare=True, max_articles=max_articles)
+        elif mode == "historical":
+            articles = collect_from_crypto_compare(max_articles=max_articles)
+        else:
+            articles = collect_from_feeds(feeds)
+
         if articles:
             save_articles(articles, output_path)
 
@@ -124,4 +173,4 @@ def collect_and_save(
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    collect_and_save(max_iterations=1)
+    collect_and_save(mode="rss", max_iterations=1)

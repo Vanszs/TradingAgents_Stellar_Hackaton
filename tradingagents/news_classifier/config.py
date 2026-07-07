@@ -5,6 +5,14 @@ import os
 import logging
 from pathlib import Path
 
+try:
+    from dotenv import load_dotenv
+    _env_path = Path(__file__).parent.parent.parent / ".env"
+    if _env_path.exists():
+        load_dotenv(_env_path)
+except ImportError:
+    pass
+
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).parent
@@ -30,7 +38,14 @@ RSS_FEEDS = [
     "https://www.theblock.co/rss.xml",
     "https://bitcoinmagazine.com/.rss/full/",
     "https://cryptonews.com/news/feed/",
+    "https://beincrypto.com/feed/",
+    "https://u.today/rss",
+    "https://cryptoslate.com/feed/",
+    "https://bravenewcoin.com/feed",
 ]
+
+CRYPTO_COMPARE_API_KEY = os.getenv("CRYPTO_COMPARE_API_KEY", "")
+CRYPTO_COMPARE_BASE_URL = "https://min-api.cryptocompare.com/data/v2/news/"
 
 CRYPTO_KEYWORDS = {
     "BTC", "ETH", "SOL", "BNB", "XRP", "ADA", "DOGE", "DOT", "AVAX",

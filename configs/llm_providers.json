@@ -3,8 +3,9 @@
     "sumopod": {
       "base_url": "https://ai.sumopod.com/v1",
       "api_key_env": "SUMOPOD_API_KEY",
-      "default_model": "deepseek-chat",
+      "default_model": "deepseek-v4-flash",
       "models": [
+        "deepseek-v4-flash",
         "deepseek-chat",
         "deepseek-reasoner",
         "gpt-4o-mini",
@@ -54,10 +55,10 @@
     }
   },
   "default_provider": "sumopod",
-  "default_model": "deepseek-chat",
+  "default_model": "deepseek-v4-flash",
   "labeling": {
     "temperature": 0.0,
-    "max_tokens": 10,
+    "max_tokens": 200,
     "batch_size": 10
   }
 }
