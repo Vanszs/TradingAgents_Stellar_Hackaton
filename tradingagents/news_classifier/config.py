@@ -55,6 +55,19 @@ GOOGLE_NEWS_QUERIES = [
     "crypto exchange news",
     "DeFi protocol news",
     "crypto market analysis",
+    "Solana crypto news",
+    "XRP Ripple news",
+    "crypto whale alert",
+    "stablecoin USDC USDT",
+    "Bitcoin ETF news",
+    "crypto security hack",
+    "Binance exchange news",
+    "Coinbase crypto news",
+    "altcoin news today",
+    "crypto staking rewards",
+    "NFT crypto news",
+    "crypto lending borrowing",
+    "crypto institutional adoption",
 ]
 
 GOOGLE_NEWS_RSS_URL = "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
