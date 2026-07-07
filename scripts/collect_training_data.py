@@ -37,9 +37,9 @@ def main():
     parser = argparse.ArgumentParser(description="Collect and label crypto news training data")
     parser.add_argument(
         "--mode",
-        choices=["rss", "all", "historical"],
+        choices=["rss", "all", "google", "historical"],
         default="rss",
-        help="Collection mode: rss (RSS only), all (RSS + CryptoCompare), historical (CryptoCompare only)",
+        help="Collection mode: rss (RSS only), all (RSS + Google News), google (Google News only), historical (CryptoCompare only)",
     )
     parser.add_argument("--max-articles", type=int, default=1000, help="Max articles to collect")
     parser.add_argument("--skip-labeling", action="store_true", help="Skip LLM labeling step")
@@ -55,14 +55,17 @@ def main():
     logger.info("Labeling Provider: %s", provider_label)
     logger.info("Labeling Model: %s", model_name)
     logger.info("RSS Feeds: %d sources", len(RSS_FEEDS))
-    logger.info("CryptoCompare API Key: %s", "configured" if CRYPTO_COMPARE_API_KEY else "not set")
 
     if args.mode == "rss":
         logger.info("Step 1: Collecting from RSS feeds...")
         articles = collect_from_feeds()
     elif args.mode == "all":
-        logger.info("Step 1: Collecting from RSS feeds + CryptoCompare...")
-        articles = collect_all(include_crypto_compare=True, max_articles=args.max_articles)
+        logger.info("Step 1: Collecting from RSS feeds + Google News...")
+        articles = collect_all(include_google_news=True, max_articles=args.max_articles)
+    elif args.mode == "google":
+        logger.info("Step 1: Collecting from Google News RSS...")
+        from tradingagents.news_classifier.data.collector import collect_from_google_news
+        articles = collect_from_google_news()
     elif args.mode == "historical":
         if not CRYPTO_COMPARE_API_KEY:
             logger.error("CryptoCompare API key required for historical mode. Set CRYPTO_COMPARE_API_KEY in .env")

@@ -94,6 +94,14 @@ def collect_from_feeds(
     return all_articles
 
 
+def collect_from_google_news(
+    queries: Optional[list[str]] = None,
+    deduplicate: bool = True,
+) -> list[dict]:
+    from tradingagents.news_classifier.data.google_news import collect_google_news
+    return collect_google_news(queries, deduplicate)
+
+
 def collect_from_crypto_compare(
     api_key: str = None,
     max_articles: int = 1000,
@@ -110,7 +118,8 @@ def collect_from_crypto_compare(
 
 def collect_all(
     rss_feeds: Optional[list[str]] = None,
-    include_crypto_compare: bool = True,
+    include_google_news: bool = True,
+    include_crypto_compare: bool = False,
     max_articles: int = 1000,
 ) -> list[dict]:
     all_articles = []
@@ -121,6 +130,13 @@ def collect_all(
         if article["id"] not in seen_ids:
             seen_ids.add(article["id"])
             all_articles.append(article)
+
+    if include_google_news:
+        gn_articles = collect_from_google_news()
+        for article in gn_articles:
+            if article["id"] not in seen_ids:
+                seen_ids.add(article["id"])
+                all_articles.append(article)
 
     if include_crypto_compare:
         cc_articles = collect_from_crypto_compare(max_articles=max_articles)
@@ -157,7 +173,7 @@ def collect_and_save(
         if mode == "rss":
             articles = collect_from_feeds(feeds)
         elif mode == "all":
-            articles = collect_all(feeds, include_crypto_compare=True, max_articles=max_articles)
+            articles = collect_all(feeds, include_google_news=True, include_crypto_compare=False, max_articles=max_articles)
         elif mode == "historical":
             articles = collect_from_crypto_compare(max_articles=max_articles)
         else:

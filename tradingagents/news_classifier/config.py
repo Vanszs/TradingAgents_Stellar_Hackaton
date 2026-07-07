@@ -47,6 +47,18 @@ RSS_FEEDS = [
 CRYPTO_COMPARE_API_KEY = os.getenv("CRYPTO_COMPARE_API_KEY", "")
 CRYPTO_COMPARE_BASE_URL = "https://min-api.cryptocompare.com/data/v2/news/"
 
+GOOGLE_NEWS_QUERIES = [
+    "Bitcoin crypto news",
+    "Ethereum crypto news",
+    "crypto hack exploit",
+    "crypto regulation SEC",
+    "crypto exchange news",
+    "DeFi protocol news",
+    "crypto market analysis",
+]
+
+GOOGLE_NEWS_RSS_URL = "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
+
 CRYPTO_KEYWORDS = {
     "BTC", "ETH", "SOL", "BNB", "XRP", "ADA", "DOGE", "DOT", "AVAX",
     "MATIC", "LINK", "UNI", "ATOM", "LTC", "ETC", "FIL", "APT", "ARB",
