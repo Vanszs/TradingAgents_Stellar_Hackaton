@@ -20,7 +20,7 @@ PRETRAINED_DIR = PROJECT_ROOT / "pretrained"
 DATA_DIR = PROJECT_ROOT / "data" / "cache"
 PROVIDERS_CONFIG_PATH = Path(__file__).parent.parent.parent / "configs" / "llm_providers.json"
 
-LABEL_MAP = {"BIASA": 0, "LUMAYAN": 1, "PENTING": 2}
+LABEL_MAP = {"NORMAL": 0, "MODERATE": 1, "CRITICAL": 2}
 ID_TO_LABEL = {v: k for k, v in LABEL_MAP.items()}
 NUM_LABELS = len(LABEL_MAP)
 
@@ -68,7 +68,7 @@ CRYPTO_KEYWORDS = {
     "CHAINLINK", "UNISWAP", "COSMOS", "LITECOIN",
 }
 
-SANITIZER_PROMPT = """You are a crypto news impact assessor. A machine learning model classified this news as "PENTING" (critical).
+SANITIZER_PROMPT = """You are a crypto news impact assessor. A machine learning model classified this news as "CRITICAL".
 
 Your job is to VALIDATE this classification by assessing:
 1. Is this genuinely impactful news for crypto markets?
@@ -93,11 +93,11 @@ Source: {source}
 
 LABELER_PROMPT = """You are a crypto news classifier. Classify the following news article into one of 3 levels:
 
-- PENTING: Highly impactful news that could significantly move crypto markets. Examples: major exchange hack/collapse, ETF approval/rejection, major regulatory action, huge whale movements, protocol critical vulnerability, major partnership listing.
-- LUMAYAN: Moderately impactful news. Examples: minor exchange issues, project updates, moderate regulatory news, market analysis with notable insights, minor hack/exploit.
-- BIASA: Regular/routine news. Examples: price updates, routine project announcements, opinion pieces, minor market commentary.
+- CRITICAL: Highly impactful news that could significantly move crypto markets. Examples: major exchange hack/collapse, ETF approval/rejection, major regulatory action, huge whale movements, protocol critical vulnerability, major partnership listing.
+- MODERATE: Moderately impactful news. Examples: minor exchange issues, project updates, moderate regulatory news, market analysis with notable insights, minor hack/exploit.
+- NORMAL: Regular/routine news. Examples: price updates, routine project announcements, opinion pieces, minor market commentary.
 
-Respond with ONLY the classification label: PENTING, LUMAYAN, or BIASA.
+Respond with ONLY the classification label: CRITICAL, MODERATE, or NORMAL.
 
 Title: {title}
 Content: {content}

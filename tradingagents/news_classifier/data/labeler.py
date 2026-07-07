@@ -134,14 +134,14 @@ def label_with_llm(
                 success_count += 1
             else:
                 logger.warning("Could not parse label from response: %s", label_text)
-                article["label"] = "BIASA"
+                article["label"] = "NORMAL"
                 article["label_source"] = "llm_fallback"
                 article["label_confidence"] = "low"
                 error_count += 1
 
         except Exception as e:
             logger.error("LLM labeling failed for article %d: %s", i, e)
-            article["label"] = "BIASA"
+            article["label"] = "NORMAL"
             article["label_source"] = "error_fallback"
             article["label_confidence"] = "none"
             error_count += 1

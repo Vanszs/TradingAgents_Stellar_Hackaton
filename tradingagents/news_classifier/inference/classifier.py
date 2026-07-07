@@ -91,4 +91,4 @@ class NewsClassifier:
 
     def is_important(self, title: str, content: str = "", threshold: float = 0.7) -> bool:
         result = self.classify(title, content)
-        return result["label"] == "PENTING" and result["confidence"] >= threshold
+        return result["label"] == "CRITICAL" and result["confidence"] >= threshold

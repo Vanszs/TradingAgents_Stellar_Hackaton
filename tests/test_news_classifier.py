@@ -55,14 +55,14 @@ from tradingagents.news_classifier.config import LABEL_MAP, ID_TO_LABEL
 
 class TestConfig:
     def test_label_map(self):
-        assert LABEL_MAP["BIASA"] == 0
-        assert LABEL_MAP["LUMAYAN"] == 1
-        assert LABEL_MAP["PENTING"] == 2
+        assert LABEL_MAP["NORMAL"] == 0
+        assert LABEL_MAP["MODERATE"] == 1
+        assert LABEL_MAP["CRITICAL"] == 2
 
     def test_id_to_label(self):
-        assert ID_TO_LABEL[0] == "BIASA"
-        assert ID_TO_LABEL[1] == "LUMAYAN"
-        assert ID_TO_LABEL[2] == "PENTING"
+        assert ID_TO_LABEL[0] == "NORMAL"
+        assert ID_TO_LABEL[1] == "MODERATE"
+        assert ID_TO_LABEL[2] == "CRITICAL"
 
 
 from tradingagents.news_classifier.training.evaluator import compute_metrics, confusion_matrix
@@ -142,13 +142,13 @@ class TestSchemas:
 
     def test_classify_response(self):
         resp = ClassifyResponse(
-            label="PENTING",
+            label="CRITICAL",
             confidence=0.95,
-            probabilities={"BIASA": 0.01, "LUMAYAN": 0.04, "PENTING": 0.95},
+            probabilities={"NORMAL": 0.01, "MODERATE": 0.04, "CRITICAL": 0.95},
             title="Test",
             source="RSS",
         )
-        assert resp.label == "PENTING"
+        assert resp.label == "CRITICAL"
 
     def test_active_coins_config(self):
         config = ActiveCoinsConfig(coins=[
