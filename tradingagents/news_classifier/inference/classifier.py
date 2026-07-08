@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Optional, Union
 
 import torch
-from transformers import AutoTokenizer
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 from tradingagents.news_classifier.config import (
     MODEL_NAME,
@@ -13,10 +13,11 @@ from tradingagents.news_classifier.config import (
     ID_TO_LABEL,
     PRETRAINED_DIR,
 )
-from tradingagents.news_classifier.models.bert_classifier import CryptoNewsBERT, load_model, load_tokenizer
-from tradingagents.news_classifier.data.preprocessor import preprocess_article
+from tradingagents.news_classifier.data.preprocessor import preprocess_with_features
 
 logger = logging.getLogger(__name__)
+
+PRETRAINED_DIR.mkdir(parents=True, exist_ok=True)
 
 
 class NewsClassifier:
@@ -29,23 +30,57 @@ class NewsClassifier:
     ):
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.max_length = max_length
+        self.model_name = model_name
 
         if model_path is None:
             model_path = PRETRAINED_DIR / "best_model.pt"
 
-        self.tokenizer = load_tokenizer(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
 
         if Path(model_path).exists():
-            self.model = load_model(str(model_path), model_name=model_name, device=self.device)
+            state_dict = torch.load(str(model_path), map_location=self.device)
+
+            # Auto-detect model architecture from state dict
+            if any(k.startswith("albert.") for k in state_dict.keys()):
+                logger.info("Detected ALBERT model from state dict")
+                self.model = AutoModelForSequenceClassification.from_pretrained(
+                    "albert-base-v2", num_labels=3
+                )
+            elif any(k.startswith("roberta.") for k in state_dict.keys()):
+                logger.info("Detected RoBERTa model from state dict")
+                self.model = AutoModelForSequenceClassification.from_pretrained(
+                    "roberta-base", num_labels=3
+                )
+            elif any(k.startswith("distilbert.") for k in state_dict.keys()):
+                logger.info("Detected DistilBERT model from state dict")
+                self.model = AutoModelForSequenceClassification.from_pretrained(
+                    "distilbert-base-uncased", num_labels=3
+                )
+            else:
+                logger.info("Using default model: %s", model_name)
+                self.model = AutoModelForSequenceClassification.from_pretrained(
+                    model_name, num_labels=3
+                )
+
+            self.model.load_state_dict(state_dict)
+            self.model.to(self.device)
+            self.model.eval()
             logger.info("Loaded trained model from %s", model_path)
         else:
             logger.warning("No trained model found at %s, using untrained model", model_path)
-            self.model = CryptoNewsBERT(model_name=model_name)
+            self.model = AutoModelForSequenceClassification.from_pretrained(
+                model_name, num_labels=3
+            )
             self.model.to(self.device)
             self.model.eval()
 
     def classify(self, title: str, content: str = "", source: str = "") -> dict:
-        text = preprocess_article(title=title, content=content)
+        article = {
+            "title": title,
+            "description": content,
+            "source": source,
+        }
+        text = preprocess_with_features(article)
 
         encoding = self.tokenizer(
             text,
@@ -60,7 +95,7 @@ class NewsClassifier:
 
         with torch.no_grad():
             outputs = self.model(input_ids, attention_mask)
-            probs = torch.softmax(outputs["logits"], dim=-1)
+            probs = torch.softmax(outputs.logits, dim=-1)
             pred_idx = torch.argmax(probs, dim=-1).item()
             confidence = probs[0][pred_idx].item()
 
@@ -89,6 +124,6 @@ class NewsClassifier:
             results.append(result)
         return results
 
-    def is_important(self, title: str, content: str = "", threshold: float = 0.7) -> bool:
+    def is_critical(self, title: str, content: str = "", threshold: float = 0.6) -> bool:
         result = self.classify(title, content)
         return result["label"] == "CRITICAL" and result["confidence"] >= threshold
