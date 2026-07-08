@@ -79,7 +79,7 @@ def create_app():
     return app
 
 
-def run_server(host: str = "0.0.0.0", port: int = 8000):
+def run_server(host: str = "0.0.0.0", port: int = 8001):
     import uvicorn
     app = create_app()
     uvicorn.run(app, host=host, port=port)
