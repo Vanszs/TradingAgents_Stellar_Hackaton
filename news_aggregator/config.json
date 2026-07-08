@@ -9,7 +9,7 @@
     "https://beincrypto.com/feed/",
     "https://u.today/rss"
   ],
-  "interval_seconds": 900,
+  "interval_seconds": 300,
   "classifier_threshold": 0.5,
   "log_file": "aggregator.log"
 }
