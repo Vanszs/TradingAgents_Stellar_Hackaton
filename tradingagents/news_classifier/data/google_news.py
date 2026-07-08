@@ -29,6 +29,7 @@ def _fetch_google_news_query(query: str, timeout: int = 30) -> list[dict]:
         for item in root.findall(".//item"):
             title = item.findtext("title", "").strip()
             link = item.findtext("link", "").strip()
+            desc = item.findtext("description", "").strip()
             source_el = item.find("source")
             source_name = source_el.text.strip() if source_el is not None else "Google News"
             pub_date = item.findtext("pubDate", "").strip()
@@ -36,12 +37,17 @@ def _fetch_google_news_query(query: str, timeout: int = 30) -> list[dict]:
             if not title:
                 continue
 
+            # Clean HTML from description
+            import re
+            desc_clean = re.sub(r"<[^>]+>", "", desc).strip()
+            desc_clean = re.sub(r"&\w+;", " ", desc_clean).strip()
+
             article_id = hashlib.md5(f"gn_{title}{link}".encode()).hexdigest()
             articles.append({
                 "id": article_id,
                 "title": title,
                 "link": link,
-                "description": "",
+                "description": desc_clean if desc_clean else "",
                 "source": f"google_news:{source_name}",
                 "pub_date": pub_date,
                 "query": query,

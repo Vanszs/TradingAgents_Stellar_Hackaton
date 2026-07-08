@@ -9,7 +9,7 @@ import torch
 from torch.utils.data import Dataset
 
 from tradingagents.news_classifier.config import LABEL_MAP, MAX_LENGTH
-from tradingagents.news_classifier.data.preprocessor import preprocess_article
+from tradingagents.news_classifier.data.preprocessor import preprocess_article, preprocess_with_features
 
 logger = logging.getLogger(__name__)
 
@@ -51,9 +51,8 @@ class CryptoNewsDataset(Dataset):
 
     def __getitem__(self, idx: int) -> dict:
         article = self.articles[idx]
-        text = preprocess_article(
-            title=article.get("title", ""),
-            content=article.get("description", ""),
+        text = preprocess_with_features(
+            article=article,
             normalize_crypto=self.normalize_crypto,
             max_words=400,
         )
