@@ -40,32 +40,48 @@ class NewsClassifier:
         if Path(model_path).exists():
             state_dict = torch.load(str(model_path), map_location=self.device)
 
-            # Auto-detect model architecture from state dict
-            if any(k.startswith("albert.") for k in state_dict.keys()):
-                logger.info("Detected ALBERT model from state dict")
-                self.model = AutoModelForSequenceClassification.from_pretrained(
-                    "albert-base-v2", num_labels=3
-                )
-            elif any(k.startswith("roberta.") for k in state_dict.keys()):
-                logger.info("Detected RoBERTa model from state dict")
-                self.model = AutoModelForSequenceClassification.from_pretrained(
-                    "roberta-base", num_labels=3
-                )
-            elif any(k.startswith("distilbert.") for k in state_dict.keys()):
-                logger.info("Detected DistilBERT model from state dict")
-                self.model = AutoModelForSequenceClassification.from_pretrained(
-                    "distilbert-base-uncased", num_labels=3
-                )
-            else:
-                logger.info("Using default model: %s", model_name)
+            # Check which keys are in state dict
+            has_albert = any(k.startswith("albert.") for k in state_dict.keys())
+            has_roberta = any(k.startswith("roberta.") for k in state_dict.keys())
+            has_distilbert = any(k.startswith("distilbert.") for k in state_dict.keys())
+            has_bert = any(k.startswith("bert.") for k in state_dict.keys())
+
+            # Try to load with the correct model - skip if download fails
+            model_loaded = False
+            attempts = []
+
+            if has_albert:
+                attempts.append(("albert-base-v2", "ALBERT"))
+            if has_roberta:
+                attempts.append(("roberta-base", "RoBERTa"))
+            if has_distilbert:
+                attempts.append(("distilbert-base-uncased", "DistilBERT"))
+            if has_bert or not attempts:
+                attempts.append((model_name, "BERT"))
+
+            for model_id, model_type in attempts:
+                try:
+                    logger.info("Attempting to load %s from %s...", model_type, model_id)
+                    self.model = AutoModelForSequenceClassification.from_pretrained(
+                        model_id, num_labels=3
+                    )
+                    self.model.load_state_dict(state_dict, strict=False)
+                    self.model.to(self.device)
+                    self.model.eval()
+                    logger.info("Successfully loaded %s model", model_type)
+                    model_loaded = True
+                    break
+                except Exception as e:
+                    logger.warning("Failed to load %s (%s), trying next...", model_type, str(e)[:100])
+                    continue
+
+            if not model_loaded:
+                logger.warning("No model loaded, using untrained %s", model_name)
                 self.model = AutoModelForSequenceClassification.from_pretrained(
                     model_name, num_labels=3
                 )
-
-            self.model.load_state_dict(state_dict)
-            self.model.to(self.device)
-            self.model.eval()
-            logger.info("Loaded trained model from %s", model_path)
+                self.model.to(self.device)
+                self.model.eval()
         else:
             logger.warning("No trained model found at %s, using untrained model", model_path)
             self.model = AutoModelForSequenceClassification.from_pretrained(
