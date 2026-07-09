@@ -5,7 +5,12 @@ from pathlib import Path
 from typing import Optional, Union
 
 import torch
-from transformers import AutoModelForSequenceClassification, AutoTokenizer
+from transformers import (
+    AutoTokenizer,
+    RobertaConfig,
+    RobertaForSequenceClassification,
+    AutoModelForSequenceClassification,
+)
 
 from tradingagents.news_classifier.config import (
     MODEL_NAME,
@@ -38,52 +43,40 @@ class NewsClassifier:
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
 
         if Path(model_path).exists():
+            logger.info("Loading trained model from %s", model_path)
             state_dict = torch.load(str(model_path), map_location=self.device)
 
-            # Check which keys are in state dict
-            has_albert = any(k.startswith("albert.") for k in state_dict.keys())
+            # Auto-detect model architecture
             has_roberta = any(k.startswith("roberta.") for k in state_dict.keys())
-            has_distilbert = any(k.startswith("distilbert.") for k in state_dict.keys())
-            has_bert = any(k.startswith("bert.") for k in state_dict.keys())
+            has_albert = any(k.startswith("albert.") for k in state_dict.keys())
 
-            # Try to load with the correct model - skip if download fails
-            model_loaded = False
-            attempts = []
-
-            if has_albert:
-                attempts.append(("albert-base-v2", "ALBERT"))
             if has_roberta:
-                attempts.append(("roberta-base", "RoBERTa"))
-            if has_distilbert:
-                attempts.append(("distilbert-base-uncased", "DistilBERT"))
-            if has_bert or not attempts:
-                attempts.append((model_name, "BERT"))
+                # Create model with correct config
+                config = RobertaConfig.from_pretrained("roberta-base")
+                config.num_labels = 3
+                self.model = RobertaForSequenceClassification(config)
 
-            for model_id, model_type in attempts:
-                try:
-                    logger.info("Attempting to load %s from %s...", model_type, model_id)
-                    self.model = AutoModelForSequenceClassification.from_pretrained(
-                        model_id, num_labels=3
-                    )
-                    self.model.load_state_dict(state_dict, strict=False)
-                    self.model.to(self.device)
-                    self.model.eval()
-                    logger.info("Successfully loaded %s model", model_type)
-                    model_loaded = True
-                    break
-                except Exception as e:
-                    logger.warning("Failed to load %s (%s), trying next...", model_type, str(e)[:100])
-                    continue
-
-            if not model_loaded:
-                logger.warning("No model loaded, using untrained %s", model_name)
+                # Load state dict directly (keys already match)
+                self.model.load_state_dict(state_dict)
+                logger.info("Loaded RoBERTa model with trained classifier")
+            elif has_albert:
+                self.model = AutoModelForSequenceClassification.from_pretrained(
+                    "albert-base-v2", num_labels=3
+                )
+                self.model.load_state_dict(state_dict, strict=False)
+                logger.info("Loaded ALBERT model")
+            else:
                 self.model = AutoModelForSequenceClassification.from_pretrained(
                     model_name, num_labels=3
                 )
-                self.model.to(self.device)
-                self.model.eval()
+                self.model.load_state_dict(state_dict, strict=False)
+                logger.info("Loaded model with default architecture")
+
+            self.model.to(self.device)
+            self.model.eval()
+            logger.info("Model loaded successfully from %s", model_path)
         else:
-            logger.warning("No trained model found at %s, using untrained model", model_path)
+            logger.warning("No trained model at %s, using untrained %s", model_path, model_name)
             self.model = AutoModelForSequenceClassification.from_pretrained(
                 model_name, num_labels=3
             )
@@ -143,3 +136,4 @@ class NewsClassifier:
     def is_critical(self, title: str, content: str = "", threshold: float = 0.6) -> bool:
         result = self.classify(title, content)
         return result["label"] == "CRITICAL" and result["confidence"] >= threshold
+
