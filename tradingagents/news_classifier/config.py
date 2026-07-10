@@ -178,29 +178,6 @@ CRYPTO_KEYWORDS = {
     "CHAINLINK", "UNISWAP", "COSMOS", "LITECOIN",
 }
 
-SANITIZER_PROMPT = """You are a crypto news impact assessor. A machine learning model classified this news as "CRITICAL".
-
-Your job is to VALIDATE this classification by assessing:
-1. Is this genuinely impactful news for crypto markets?
-2. What specific coins/tokens are affected?
-3. Is the narrative positive, negative, or mixed?
-4. What is the expected market impact?
-
-Respond in JSON format:
-{
-  "validated": true/false,
-  "affected_coins": ["BTC", "ETH", ...],
-  "narrative_type": "positive"|"negative"|"mixed",
-  "impact_summary": "brief description",
-  "confidence": 0.0-1.0
-}
-
-News to assess:
-Title: {title}
-Content: {content}
-Source: {source}
-"""
-
 LABELER_PROMPT = """You are a crypto news classifier. Classify the following news article into one of 3 levels:
 
 - CRITICAL: Highly impactful news that could significantly move crypto markets. Examples: major exchange hack/collapse, ETF approval/rejection, major regulatory action, huge whale movements, protocol critical vulnerability, major partnership listing.

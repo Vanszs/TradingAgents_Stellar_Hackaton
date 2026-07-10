@@ -33,6 +33,9 @@ class NewsAggregator:
                 title=article["title"],
                 content=article.get("description", ""),
                 source=article.get("source", ""),
+                url=article.get("link", ""),
+                pub_date=article.get("pub_date", ""),
+                description=article.get("description", ""),
             )
             article["classification"] = result
             results[result["label"]].append(article)

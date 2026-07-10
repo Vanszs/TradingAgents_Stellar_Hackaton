@@ -56,7 +56,7 @@ def print_evaluation_report(metrics: dict) -> None:
     logger.info("Macro F1: %.4f", metrics["f1_macro"])
     logger.info("")
     logger.info("Per-class metrics:")
-    for label in ["BIASA", "LUMAYAN", "PENTING"]:
+    for label in ["NORMAL", "MODERATE", "CRITICAL"]:
         logger.info(
             "  %s - P: %.4f, R: %.4f, F1: %.4f",
             label,

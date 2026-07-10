@@ -6,9 +6,4 @@ def get_classifier():
     return NewsClassifier
 
 
-def get_sanitizer():
-    from tradingagents.news_classifier.inference.sanitizer import NewsSanitizer
-    return NewsSanitizer
-
-
-__all__ = ["get_classifier", "get_sanitizer"]
+__all__ = ["get_classifier"]

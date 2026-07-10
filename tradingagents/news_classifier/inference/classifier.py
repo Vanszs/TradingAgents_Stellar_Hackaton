@@ -1,8 +1,10 @@
 """Fast inference pipeline for crypto news classification."""
 
 import logging
+import re
 from pathlib import Path
 from typing import Optional, Union
+from urllib.parse import urlparse
 
 import torch
 from transformers import (
@@ -23,6 +25,23 @@ from tradingagents.news_classifier.data.preprocessor import preprocess_with_feat
 logger = logging.getLogger(__name__)
 
 PRETRAINED_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _clean_source_name(source: str) -> str:
+    if not source:
+        return ""
+    if not source.startswith("http"):
+        if ":" in source:
+            return source.split(":", 1)[1].strip()
+        return source.strip()
+    try:
+        parsed = urlparse(source)
+        domain = parsed.netloc or parsed.path
+        domain = re.sub(r"^www\.", "", domain)
+        domain = domain.split(".")[0]
+        return domain.capitalize()
+    except Exception:
+        return source
 
 
 class NewsClassifier:
@@ -83,7 +102,10 @@ class NewsClassifier:
             self.model.to(self.device)
             self.model.eval()
 
-    def classify(self, title: str, content: str = "", source: str = "") -> dict:
+    def classify(
+        self, title: str, content: str = "", source: str = "",
+        url: str = "", pub_date: str = "", description: str = "",
+    ) -> dict:
         article = {
             "title": title,
             "description": content,
@@ -119,7 +141,10 @@ class NewsClassifier:
                 for i in range(len(ID_TO_LABEL))
             },
             "title": title,
-            "source": source,
+            "description": description or content,
+            "url": url,
+            "pub_date": pub_date,
+            "source": _clean_source_name(source),
         }
 
     def classify_batch(self, articles: list[dict]) -> list[dict]:
@@ -129,6 +154,9 @@ class NewsClassifier:
                 title=article.get("title", ""),
                 content=article.get("description", article.get("content", "")),
                 source=article.get("source", ""),
+                url=article.get("link", ""),
+                pub_date=article.get("pub_date", ""),
+                description=article.get("description", ""),
             )
             results.append(result)
         return results

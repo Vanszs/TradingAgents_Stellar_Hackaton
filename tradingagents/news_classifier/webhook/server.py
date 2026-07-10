@@ -66,13 +66,20 @@ def create_app():
             title=request.title,
             content=request.content,
             source=request.source,
+            url=request.url,
+            pub_date=request.pub_date,
+            description=request.description,
         )
 
         return ClassifyResponse(
             label=result["label"],
+            label_id=result["label_id"],
             confidence=result["confidence"],
             probabilities=result["probabilities"],
             title=result["title"],
+            description=result["description"],
+            url=result["url"],
+            pub_date=result["pub_date"],
             source=result["source"],
         )
 

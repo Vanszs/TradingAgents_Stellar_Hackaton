@@ -196,7 +196,7 @@ def load_unlabeled_articles(input_path: Optional[Path] = None) -> list[dict]:
 
 
 def get_label_distribution(articles: list[dict]) -> dict[str, int]:
-    dist = {"PENTING": 0, "LUMAYAN": 0, "BIASA": 0, "UNLABELED": 0}
+    dist = {"CRITICAL": 0, "MODERATE": 0, "NORMAL": 0, "UNLABELED": 0}
     for article in articles:
         label = article.get("label", "UNLABELED")
         dist[label] = dist.get(label, 0) + 1
