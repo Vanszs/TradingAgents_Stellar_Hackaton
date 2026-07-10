@@ -217,7 +217,3 @@ __marimo__/
 
 # Cache
 **/data_cache/
-
-# Model files
-tradingagents/news_classifier/pretrained/*.pt
-tradingagents/news_classifier/pretrained/*.json
