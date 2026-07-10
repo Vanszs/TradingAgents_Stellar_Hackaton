@@ -130,8 +130,6 @@ class TestAugmentor:
 from tradingagents.news_classifier.webhook.schemas import (
     ClassifyRequest,
     ClassifyResponse,
-    ActiveCoinsConfig,
-    ActiveCoin,
 )
 
 
@@ -143,19 +141,17 @@ class TestSchemas:
     def test_classify_response(self):
         resp = ClassifyResponse(
             label="CRITICAL",
+            label_id=2,
             confidence=0.95,
             probabilities={"NORMAL": 0.01, "MODERATE": 0.04, "CRITICAL": 0.95},
             title="Test",
-            source="RSS",
+            description="Test content",
+            url="https://example.com",
+            pub_date="2024-01-01",
+            source="CoinDesk",
         )
         assert resp.label == "CRITICAL"
-
-    def test_active_coins_config(self):
-        config = ActiveCoinsConfig(coins=[
-            ActiveCoin(ticker="BTC", name="Bitcoin", narratives=["ETF"]),
-        ])
-        assert len(config.coins) == 1
-        assert config.coins[0].ticker == "BTC"
+        assert resp.label_id == 2
 
 
 from tradingagents.news_classifier.config import (
