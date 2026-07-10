@@ -1,0 +1,6 @@
+# pretrained/*.pt
+# pretrained/*.bin
+pretrained/*.safetensors
+data/cache/
+*.pyc
+__pycache__/

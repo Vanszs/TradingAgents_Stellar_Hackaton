@@ -1,0 +1,15 @@
+{
+  "rss_feeds": [
+    "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    "https://cointelegraph.com/rss",
+    "https://decrypt.co/feed",
+    "https://www.theblock.co/rss.xml",
+    "https://bitcoinmagazine.com/.rss/full/",
+    "https://cryptonews.com/news/feed/",
+    "https://beincrypto.com/feed/",
+    "https://u.today/rss"
+  ],
+  "interval_seconds": 300,
+  "classifier_threshold": 0.5,
+  "log_file": "aggregator.log"
+}

@@ -51,13 +51,6 @@ ANALYST_NODE_SPECS: Dict[str, AnalystNodeSpec] = {
         tool_node="tools_fundamentals",
         report_key="fundamentals_report",
     ),
-    "narrative": AnalystNodeSpec(
-        key="narrative",
-        agent_node="Narrative Analyst",
-        clear_node="Msg Clear Narrative",
-        tool_node="tools_narrative",
-        report_key="narrative_report",
-    ),
 }
 
 

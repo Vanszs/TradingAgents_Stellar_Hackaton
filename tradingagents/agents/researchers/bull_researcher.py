@@ -12,7 +12,6 @@ def create_bull_researcher(llm):
         sentiment_report = state["sentiment_report"]
         news_report = state["news_report"]
         fundamentals_report = state["fundamentals_report"]
-        narrative_report = state.get("narrative_report", "")
         asset_type = state.get("asset_type", "stock")
         target_label = "stock" if asset_type == "stock" else "asset"
         fundamentals_label = (
@@ -22,12 +21,6 @@ def create_bull_researcher(llm):
         )
 
         prompt = f"""You are a Bull Analyst advocating for investing in the {target_label}. Your task is to build a strong, evidence-based case emphasizing growth potential, competitive advantages, and positive market indicators. Leverage the provided research and data to address concerns and counter bearish arguments effectively.
-
-Your case should be specifically framed around defending and exploiting the following market/sector narrative:
-<narrative_report>
-{narrative_report}
-</narrative_report>
-Explain why the target {target_label} is a prime beneficiary of this narrative, and how it is well-positioned to capitalize on it.
 
 Key points to focus on:
 - Growth Potential: Highlight the company's market opportunities, revenue projections, and scalability.
@@ -41,7 +34,6 @@ Market research report: {market_research_report}
 Social media sentiment report: {sentiment_report}
 Latest world affairs news: {news_report}
 {fundamentals_label}: {fundamentals_report}
-Narrative report: {narrative_report}
 Conversation history of the debate: {history}
 Last bear argument: {current_response}
 Use this information to deliver a compelling bull argument, refute the bear's concerns, and engage in a dynamic debate that demonstrates the strengths of the bull position.

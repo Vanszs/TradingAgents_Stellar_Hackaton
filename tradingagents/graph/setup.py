@@ -33,7 +33,7 @@ class GraphSetup:
         self.asset_type = asset_type
 
     def setup_graph(
-        self, selected_analysts=["market", "social", "news", "fundamentals", "narrative"]
+        self, selected_analysts=["market", "social", "news", "fundamentals"]
     ):
         """Set up and compile the agent workflow graph.
 
@@ -43,7 +43,6 @@ class GraphSetup:
                 - "social": Social media analyst
                 - "news": News analyst
                 - "fundamentals": Fundamentals analyst
-                - "narrative": Narrative analyst
         """
         plan = build_analyst_execution_plan(
             selected_analysts,
@@ -68,7 +67,6 @@ class GraphSetup:
             "social": lambda: create_sentiment_analyst(self.quick_thinking_llm),
             "news": lambda: create_news_analyst(self.quick_thinking_llm),
             "fundamentals": fundamentals_factory,
-            "narrative": lambda: create_narrative_analyst(self.quick_thinking_llm),
         }
 
         # Create researcher and manager nodes
@@ -91,12 +89,6 @@ class GraphSetup:
             workflow.add_node(spec.agent_node, analyst_factories[spec.key]())
             workflow.add_node(spec.clear_node, create_msg_delete())
             workflow.add_node(spec.tool_node, self.tool_nodes[spec.key])
-            if spec.key == "narrative":
-                workflow.add_node("News Narrative Searcher", create_news_narrative_analyst(self.quick_thinking_llm))
-                workflow.add_node("Social Narrative Searcher", create_social_narrative_analyst(self.quick_thinking_llm))
-                workflow.add_node("Market Narrative Searcher", create_market_narrative_analyst(self.quick_thinking_llm))
-                workflow.add_node("Narrative Picker", create_narrative_picker(self.quick_thinking_llm))
-                workflow.add_node("Narrative Parallel Start", lambda state: {})
 
         # Add other nodes
         workflow.add_node("Bull Researcher", bull_researcher_node)
@@ -118,30 +110,13 @@ class GraphSetup:
             current_tools = spec.tool_node
             current_clear = spec.clear_node
 
-            if spec.key == "narrative":
-                workflow.add_conditional_edges(
-                    current_analyst,
-                    route_narrative_entry,
-                    {
-                        "skip_search": "Narrative Picker",
-                        "run_search": "Narrative Parallel Start",
-                    }
-                )
-                workflow.add_edge("Narrative Parallel Start", "News Narrative Searcher")
-                workflow.add_edge("Narrative Parallel Start", "Social Narrative Searcher")
-                workflow.add_edge("Narrative Parallel Start", "Market Narrative Searcher")
-                workflow.add_edge("News Narrative Searcher", "Narrative Picker")
-                workflow.add_edge("Social Narrative Searcher", "Narrative Picker")
-                workflow.add_edge("Market Narrative Searcher", "Narrative Picker")
-                workflow.add_edge("Narrative Picker", current_clear)
-            else:
-                # Add conditional edges for current analyst
-                workflow.add_conditional_edges(
-                    current_analyst,
-                    getattr(self.conditional_logic, f"should_continue_{spec.key}"),
-                    [current_tools, current_clear],
-                )
-                workflow.add_edge(current_tools, current_analyst)
+            # Add conditional edges for current analyst
+            workflow.add_conditional_edges(
+                current_analyst,
+                getattr(self.conditional_logic, f"should_continue_{spec.key}"),
+                [current_tools, current_clear],
+            )
+            workflow.add_edge(current_tools, current_analyst)
 
             # Connect to next analyst or to Bull Researcher if this is the last analyst
             if i < len(plan.specs) - 1:
