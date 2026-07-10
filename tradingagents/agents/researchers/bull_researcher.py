@@ -13,6 +13,7 @@ def create_bull_researcher(llm):
         news_report = state["news_report"]
         fundamentals_report = state["fundamentals_report"]
         narrative_report = state.get("narrative_report", "")
+        historical_summary = state.get("historical_summary", "")
         asset_type = state.get("asset_type", "stock")
         target_label = "stock" if asset_type == "stock" else "asset"
         fundamentals_label = (
@@ -42,6 +43,7 @@ Social media sentiment report: {sentiment_report}
 Latest world affairs news: {news_report}
 {fundamentals_label}: {fundamentals_report}
 Narrative report: {narrative_report}
+Historical summary from the History Agent: {historical_summary}
 Conversation history of the debate: {history}
 Last bear argument: {current_response}
 Use this information to deliver a compelling bull argument, refute the bear's concerns, and engage in a dynamic debate that demonstrates the strengths of the bull position.

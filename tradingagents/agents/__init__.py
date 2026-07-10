@@ -16,6 +16,7 @@ from .analysts.sentiment_analyst import (
 )
 from .managers.portfolio_manager import create_portfolio_manager
 from .managers.research_manager import create_research_manager
+from .history_agent import create_history_agent
 from .researchers.bear_researcher import create_bear_researcher
 from .researchers.bull_researcher import create_bull_researcher
 from .risk_mgmt.aggressive_debator import create_aggressive_debator
@@ -32,6 +33,7 @@ __all__ = [
     "RiskDebateState",
     "create_bear_researcher",
     "create_bull_researcher",
+    "create_history_agent",
     "create_research_manager",
     "create_fundamentals_analyst",
     "create_crypto_fundamentals_analyst",
