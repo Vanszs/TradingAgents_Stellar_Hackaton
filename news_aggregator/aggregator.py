@@ -54,6 +54,10 @@ class NewsAggregator:
             confidence = article["classification"]["confidence"]
             logger.info("  [CRITICAL] \"%s\" (confidence: %.2f)", article["title"][:60], confidence)
 
+        for article in results["MODERATE"]:
+            confidence = article["classification"]["confidence"]
+            logger.info("  [MODERATE] \"%s\" (confidence: %.2f)", article["title"][:60], confidence)
+
     async def run(self):
         self.load_classifier()
         interval = self.config.get("interval_seconds", 900)

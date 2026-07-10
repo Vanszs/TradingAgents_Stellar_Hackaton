@@ -161,7 +161,9 @@ class NewsClassifier:
             results.append(result)
         return results
 
-    def is_critical(self, title: str, content: str = "", threshold: float = 0.6) -> bool:
+    def is_critical(self, title: str, content: str = "", threshold: float = 0.6, include_moderate: bool = False) -> bool:
         result = self.classify(title, content)
+        if include_moderate:
+            return result["label"] in ("CRITICAL", "MODERATE") and result["confidence"] >= threshold
         return result["label"] == "CRITICAL" and result["confidence"] >= threshold
 
