@@ -58,6 +58,21 @@ class NewsAggregator:
             confidence = article["classification"]["confidence"]
             logger.info("  [MODERATE] \"%s\" (confidence: %.2f)", article["title"][:60], confidence)
 
+    def save_fallback(self, results: dict) -> Path:
+        fallback = results["CRITICAL"] + results["MODERATE"]
+        if not fallback:
+            return None
+
+        output_path = Path("news_aggregator/data/fallback_articles.jsonl")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output_path, "a", encoding="utf-8") as f:
+            for article in fallback:
+                f.write(json.dumps(article, ensure_ascii=False) + "\n")
+
+        logger.info("Saved %d fallback articles to %s", len(fallback), output_path)
+        return output_path
+
     async def run(self):
         self.load_classifier()
         interval = self.config.get("interval_seconds", 900)
@@ -71,6 +86,7 @@ class NewsAggregator:
                 if articles:
                     results = self.classify_articles(articles)
                     self.log_results(results, len(articles))
+                    self.save_fallback(results)
                     self.classified_count += len(articles)
                 else:
                     logger.info("No new articles found")
