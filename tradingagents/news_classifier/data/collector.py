@@ -18,59 +18,67 @@ logger = logging.getLogger(__name__)
 USER_AGENT = "TradingAgents/1.0 (Crypto News Classifier)"
 
 
-def _fetch_feed(url: str, timeout: int = 30) -> list[dict]:
+def _fetch_feed(url: str, timeout: int = 30, retries: int = 3) -> list[dict]:
     articles = []
-    try:
-        req = Request(url, headers={"User-Agent": USER_AGENT})
-        with urlopen(req, timeout=timeout) as resp:
-            tree = ElementTree.parse(resp)
+    for attempt in range(retries):
+        try:
+            req = Request(url, headers={"User-Agent": USER_AGENT})
+            with urlopen(req, timeout=timeout) as resp:
+                tree = ElementTree.parse(resp)
 
-        root = tree.getroot()
-        ns = {"atom": "http://www.w3.org/2005/Atom"}
+            root = tree.getroot()
+            ns = {"atom": "http://www.w3.org/2005/Atom"}
 
-        for item in root.findall(".//item"):
-            title = item.findtext("title", "").strip()
-            link = item.findtext("link", "").strip()
-            desc = item.findtext("description", "").strip()
-            pub_date = item.findtext("pubDate", "").strip()
+            for item in root.findall(".//item"):
+                title = item.findtext("title", "").strip()
+                link = item.findtext("link", "").strip()
+                desc = item.findtext("description", "").strip()
+                pub_date = item.findtext("pubDate", "").strip()
 
-            if not title:
-                continue
+                if not title:
+                    continue
 
-            article_id = hashlib.md5(f"{title}{link}".encode()).hexdigest()
-            articles.append({
-                "id": article_id,
-                "title": title,
-                "link": link,
-                "description": desc,
-                "pub_date": pub_date,
-                "source": url,
-                "collected_at": datetime.now(timezone.utc).isoformat(),
-            })
+                article_id = hashlib.md5(f"{title}{link}".encode()).hexdigest()
+                articles.append({
+                    "id": article_id,
+                    "title": title,
+                    "link": link,
+                    "description": desc,
+                    "pub_date": pub_date,
+                    "source": url,
+                    "collected_at": datetime.now(timezone.utc).isoformat(),
+                })
 
-        for entry in root.findall(".//atom:entry", ns):
-            title = entry.findtext("atom:title", "", ns).strip()
-            link_el = entry.find("atom:link", ns)
-            link = link_el.get("href", "") if link_el is not None else ""
-            desc = entry.findtext("atom:summary", "", ns).strip()
-            pub_date = entry.findtext("atom:published", "", ns).strip()
+            for entry in root.findall(".//atom:entry", ns):
+                title = entry.findtext("atom:title", "", ns).strip()
+                link_el = entry.find("atom:link", ns)
+                link = link_el.get("href", "") if link_el is not None else ""
+                desc = entry.findtext("atom:summary", "", ns).strip()
+                pub_date = entry.findtext("atom:published", "", ns).strip()
 
-            if not title:
-                continue
+                if not title:
+                    continue
 
-            article_id = hashlib.md5(f"{title}{link}".encode()).hexdigest()
-            articles.append({
-                "id": article_id,
-                "title": title,
-                "link": link,
-                "description": desc,
-                "pub_date": pub_date,
-                "source": url,
-                "collected_at": datetime.now(timezone.utc).isoformat(),
-            })
+                article_id = hashlib.md5(f"{title}{link}".encode()).hexdigest()
+                articles.append({
+                    "id": article_id,
+                    "title": title,
+                    "link": link,
+                    "description": desc,
+                    "pub_date": pub_date,
+                    "source": url,
+                    "collected_at": datetime.now(timezone.utc).isoformat(),
+                })
 
-    except (URLError, ElementTree.ParseError) as e:
-        logger.warning("Failed to fetch %s: %s", url, e)
+            return articles
+
+        except (URLError, ElementTree.ParseError) as e:
+            if attempt < retries - 1:
+                wait = 2 ** attempt
+                logger.warning("Retry %d/%d for %s in %ds: %s", attempt + 1, retries, url, wait, e)
+                time.sleep(wait)
+            else:
+                logger.warning("Failed to fetch %s after %d attempts: %s", url, retries, e)
 
     return articles
 
