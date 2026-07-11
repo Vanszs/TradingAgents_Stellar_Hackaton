@@ -24,12 +24,6 @@ def create_bear_researcher(llm):
 
         prompt = f"""You are a Bear Analyst making the case against investing in the {target_label}. Your goal is to present a well-reasoned argument emphasizing risks, challenges, and negative indicators. Leverage the provided research and data to highlight potential downsides and counter bullish arguments effectively.
 
-Your case should be specifically framed around challenging the following market/sector narrative:
-<narrative_report>
-{narrative_report}
-</narrative_report>
-Explain why the target {target_label} does NOT benefit from this narrative, or why this narrative represents a risk, vulnerability, or overhyped prospect for the {target_label}.
-
 Key points to focus on:
 
 - Risks and Challenges: Highlight factors like market saturation, financial instability, or macroeconomic threats that could hinder the stock's performance.

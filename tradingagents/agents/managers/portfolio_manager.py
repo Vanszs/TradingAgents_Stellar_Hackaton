@@ -31,7 +31,6 @@ def create_portfolio_manager(llm):
         risk_debate_state = state["risk_debate_state"]
         research_plan = state["investment_plan"]
         trader_plan = state["trader_investment_plan"]
-        narrative_report = state.get("narrative_report", "")
 
         past_context = state.get("past_context", "")
         lessons_line = (
@@ -54,7 +53,6 @@ def create_portfolio_manager(llm):
 - **Sell**: Exit position or avoid entry
 
 **Context:**
-- Market Narrative: **{narrative_report}**
 - Research Manager's investment plan: **{research_plan}**
 - Trader's transaction proposal: **{trader_plan}**
 {lessons_line}

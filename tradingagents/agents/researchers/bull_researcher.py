@@ -24,12 +24,6 @@ def create_bull_researcher(llm):
 
         prompt = f"""You are a Bull Analyst advocating for investing in the {target_label}. Your task is to build a strong, evidence-based case emphasizing growth potential, competitive advantages, and positive market indicators. Leverage the provided research and data to address concerns and counter bearish arguments effectively.
 
-Your case should be specifically framed around defending and exploiting the following market/sector narrative:
-<narrative_report>
-{narrative_report}
-</narrative_report>
-Explain why the target {target_label} is a prime beneficiary of this narrative, and how it is well-positioned to capitalize on it.
-
 Key points to focus on:
 - Growth Potential: Highlight the company's market opportunities, revenue projections, and scalability.
 - Competitive Advantages: Emphasize factors like unique products, strong branding, or dominant market positioning.
