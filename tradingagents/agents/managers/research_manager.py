@@ -19,6 +19,7 @@ def create_research_manager(llm):
     def research_manager_node(state) -> dict:
         instrument_context = build_instrument_context(state["company_of_interest"], state.get("asset_type", "stock"))
         history = state["investment_debate_state"].get("history", "")
+        historical_summary = state.get("historical_summary", "")
 
         investment_debate_state = state["investment_debate_state"]
 
@@ -40,7 +41,10 @@ Commit to a clear stance whenever the debate's strongest arguments warrant one; 
 ---
 
 **Debate History:**
-{history}""" + get_language_instruction()
+{history}
+
+**History Agent Summary:**
+{historical_summary}""" + get_language_instruction()
 
         investment_plan = invoke_structured_or_freetext(
             structured_llm,

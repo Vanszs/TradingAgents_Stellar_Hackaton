@@ -5,6 +5,7 @@ require no API keys, and make no HTTP calls.
 """
 
 from unittest.mock import MagicMock, patch
+from pathlib import Path
 
 import pytest
 from langchain_core.messages import AIMessage
@@ -15,6 +16,7 @@ from tradingagents.default_config import DEFAULT_CONFIG
 # ---------------------------------------------------------------------------
 # Mock LLM helpers
 # ---------------------------------------------------------------------------
+
 
 class _MockLLM(RunnableSerializable):
     """Mock LLM that is a proper Runnable, satisfies bind_tools and invoke."""
@@ -69,6 +71,7 @@ def patched_graph(tmp_path):
         config["checkpoint_enabled"] = False
         config["results_dir"] = str(tmp_path / "results")
         config["data_cache_dir"] = str(tmp_path / "cache")
+        config["project_dir"] = str(tmp_path)
         yield TradingAgentsGraph(debug=False, config=config)
 
 
@@ -85,10 +88,24 @@ def test_e2e_stock_pipeline_returns_decision(patched_graph):
     final_state, decision = patched_graph.propagate("NVDA", "2026-01-15", asset_type="stock")
 
     assert decision in VALID_DECISIONS
-    for key in ("market_report", "sentiment_report", "news_report", "fundamentals_report"):
+    for key in ("market_report", "sentiment_report", "news_report", "fundamentals_report", "historical_summary"):
         assert key in final_state
     assert "final_trade_decision" in final_state
     assert final_state["final_trade_decision"] != ""
+
+
+@pytest.mark.smoke
+def test_e2e_stock_pipeline_populates_history_summary(patched_graph):
+    """The new History Agent should run before the researchers and populate summary context."""
+    project_dir = Path(patched_graph.config["project_dir"])
+    report_path = project_dir / "backtest_results" / "NVDA" / "report.md"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text("Final Equity: 120000000.00\nTotal Return: 20.00%\n", encoding="utf-8")
+
+    final_state, _ = patched_graph.propagate("NVDA", "2026-01-15", asset_type="stock")
+
+    assert final_state["historical_summary"] != ""
+    assert final_state["historical_summary"] == "Mock analyst report. Rating: Hold"
 
 
 @pytest.mark.smoke
@@ -134,6 +151,7 @@ def test_graph_topology_identical_for_stock_and_crypto(tmp_path):
         config["checkpoint_enabled"] = False
         config["results_dir"] = str(tmp_path / "results")
         config["data_cache_dir"] = str(tmp_path / "cache")
+        config["project_dir"] = str(tmp_path)
 
         graph_stock = TradingAgentsGraph(debug=False, config=config)
         graph_crypto = TradingAgentsGraph(debug=False, config=config)
@@ -141,5 +159,6 @@ def test_graph_topology_identical_for_stock_and_crypto(tmp_path):
     stock_nodes = set(graph_stock.graph.nodes.keys())
     crypto_nodes = set(graph_crypto.graph.nodes.keys())
     assert stock_nodes == crypto_nodes
+    assert "History Agent" in stock_nodes
     assert "Portfolio Manager" in stock_nodes
     assert "Trader" in stock_nodes

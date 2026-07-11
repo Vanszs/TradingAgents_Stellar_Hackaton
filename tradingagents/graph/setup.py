@@ -23,6 +23,7 @@ class GraphSetup:
         conditional_logic: ConditionalLogic,
         analyst_concurrency_limit: int = 1,
         asset_type: str = "stock",
+        project_dir: str = ".",
     ):
         """Initialize with required components."""
         self.quick_thinking_llm = quick_thinking_llm
@@ -31,6 +32,7 @@ class GraphSetup:
         self.conditional_logic = conditional_logic
         self.analyst_concurrency_limit = analyst_concurrency_limit
         self.asset_type = asset_type
+        self.project_dir = project_dir
 
     def setup_graph(
         self, selected_analysts=["market", "social", "news", "fundamentals"]
@@ -73,6 +75,7 @@ class GraphSetup:
         bull_researcher_node = create_bull_researcher(self.quick_thinking_llm)
         bear_researcher_node = create_bear_researcher(self.quick_thinking_llm)
         research_manager_node = create_research_manager(self.deep_thinking_llm)
+        history_agent_node = create_history_agent(self.quick_thinking_llm, self.project_dir)
         trader_node = create_trader(self.quick_thinking_llm)
 
         # Create risk analysis nodes
@@ -94,6 +97,7 @@ class GraphSetup:
         workflow.add_node("Bull Researcher", bull_researcher_node)
         workflow.add_node("Bear Researcher", bear_researcher_node)
         workflow.add_node("Research Manager", research_manager_node)
+        workflow.add_node("History Agent", history_agent_node)
         workflow.add_node("Trader", trader_node)
         workflow.add_node("Aggressive Analyst", aggressive_analyst)
         workflow.add_node("Neutral Analyst", neutral_analyst)
@@ -122,7 +126,9 @@ class GraphSetup:
             if i < len(plan.specs) - 1:
                 workflow.add_edge(current_clear, plan.specs[i + 1].agent_node)
             else:
-                workflow.add_edge(current_clear, "Bull Researcher")
+                workflow.add_edge(current_clear, "History Agent")
+
+        workflow.add_edge("History Agent", "Bull Researcher")
 
         # Add remaining edges
         workflow.add_conditional_edges(

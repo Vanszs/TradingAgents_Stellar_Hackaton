@@ -119,6 +119,7 @@ class TradingAgentsGraph:
             self.conditional_logic,
             analyst_concurrency_limit=self.config.get("analyst_concurrency_limit", 1),
             asset_type=self.asset_type,
+            project_dir=self.config.get("project_dir", "."),
         )
 
         self.propagator = Propagator(
@@ -420,6 +421,11 @@ class TradingAgentsGraph:
             "sentiment_report": final_state["sentiment_report"],
             "news_report": final_state["news_report"],
             "fundamentals_report": final_state["fundamentals_report"],
+            "historical_summary": final_state.get("historical_summary", ""),
+            "narrative_report": final_state.get("narrative_report", ""),
+            "news_narrative": final_state.get("news_narrative", ""),
+            "social_narrative": final_state.get("social_narrative", ""),
+            "market_narrative": final_state.get("market_narrative", ""),
             "investment_debate_state": {
                 "bull_history": final_state["investment_debate_state"]["bull_history"],
                 "bear_history": final_state["investment_debate_state"]["bear_history"],
